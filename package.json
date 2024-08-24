@@ -1,10 +1,10 @@
 {
-  "name": "py-e2e-centres-archive",
+  "name": "py-e2e-locations",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "allure:report": "allure generate allure-results --name 'Centres_Archive' --clean -o allure-reports",
+    "allure:report": "allure generate allure-results --name 'Locations' --clean -o allure-reports",
     "allure:clear": "rm -r allure-results/** && cp -r allure-reports/history/ allure-results && rm -r allure-reports/**",
     "pretest": "npm run allure:clear",
     "test": "npm run cypress-test || npm run posttest",
