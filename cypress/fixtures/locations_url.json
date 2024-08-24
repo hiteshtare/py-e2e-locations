@@ -1,0 +1,974 @@
+[
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_agartala",
+    "url": "/location/agartala"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_agra",
+    "url": "/location/agra"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_ahmedabad",
+    "url": "/location/ahmedabad"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_ajmer",
+    "url": "/location/ajmer"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_alladi",
+    "url": "/location/alladi"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-allepey",
+    "url": "/location/alleppey"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_alwar",
+    "url": "/location/alwar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_amalapuram",
+    "url": "/location/amalapuram"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_ambala",
+    "url": "/location/ambala"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_amravati",
+    "url": "/location/amravati"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_amritsar",
+    "url": "/location/amritsar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_sakha_ashram_anandapur",
+    "url": "/location/anandapur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_anantapur",
+    "url": "/location/anantapur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_angul",
+    "url": "/location/angul"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_arsikere",
+    "url": "/location/arsikere"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_asansol",
+    "url": "/location/asansol"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_aurangabad",
+    "url": "/location/aurangabad"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_babai",
+    "url": "/location/babai"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bailhongal",
+    "url": "/location/bailhongal"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bellari",
+    "url": "/location/ballari"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_bangalore",
+    "url": "/location/bangalore"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bapatla",
+    "url": "/location/bapatla"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bareilly",
+    "url": "/location/bareilly"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-bargaon",
+    "url": "/location/bargaon"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_begusarai",
+    "url": "/location/begusarai"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_belgaum",
+    "url": "/location/belagavi"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bharuch",
+    "url": "/location/bharuch"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_bhavnagar",
+    "url": "/location/bhavnagar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhilai",
+    "url": "/location/bhilai"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhimavaram",
+    "url": "/location/bhimavaram"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhimtal",
+    "url": "/location/bhimtal"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhopal",
+    "url": "/location/bhopal"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhowali",
+    "url": "/location/bhowali"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_bhubaneswar",
+    "url": "/location/bhubaneswar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhuj",
+    "url": "/location/bhuj"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bijainagar",
+    "url": "/location/bijainagar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bilaspur",
+    "url": "/location/bilaspur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_brahmapur",
+    "url": "/location/brahmapur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_calicut",
+    "url": "/location/calicut"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_chamba",
+    "url": "/location/chamba"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_chandrapur",
+    "url": "/location/chandigarh"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_chandigarh",
+    "url": "/location/chandrapur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_channagiri",
+    "url": "/location/channagiri"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_chennai",
+    "url": "/location/chennai"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_chittoor",
+    "url": "/location/chittoor"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_cochin",
+    "url": "/location/cochin"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_coimbatore",
+    "url": "/location/coimbatore"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_meditation_group_colombo",
+    "url": "/location/colombo"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_cuddalore",
+    "url": "/location/cuddalore"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_cuttack",
+    "url": "/location/cuttack"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_math_dakshineswar",
+    "url": "/location/dakshineswar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_daraunda",
+    "url": "/location/daraunda"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_darbhanga",
+    "url": "/location/darbhanga"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_davanagere",
+    "url": "/location/davanagere"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_dehradun",
+    "url": "/location/dehradun"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_delhi",
+    "url": "/location/delhi"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_dharapuram",
+    "url": "/location/dharapuram"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-dharmapuri",
+    "url": "/location/dharmapuri"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_dharwad",
+    "url": "/location/dharwad"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_dhrangadhra",
+    "url": "/location/dhrangadhra"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_dihika",
+    "url": "/location/dihika"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_dindigul",
+    "url": "/location/dindigul"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_durgapur",
+    "url": "/location/durgapur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_sakha_ashram_dwarahat",
+    "url": "/location/dwarahat"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_eluru",
+    "url": "/location/eluru"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_faridabad",
+    "url": "/location/faridabad"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_gandhidham",
+    "url": "/location/gandhidham"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_garpar",
+    "url": "/location/garpar"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-gaulapar-haldwani",
+    "url": "/location/haldwani"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_sakha_kendra_ghatal",
+    "url": "/location/ghatal"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_ghaziabad",
+    "url": "/location/ghaziabad"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_goa",
+    "url": "/location/goa"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_gonda",
+    "url": "/location/gonda"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_gondal",
+    "url": "/location/gondal"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_gorakhpur",
+    "url": "/location/gorakhpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_guntakal",
+    "url": "/location/guntakal"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_guntur",
+    "url": "/location/guntur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_gurugram",
+    "url": "/location/gurugram"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_guwahati",
+    "url": "/location/guwahati"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-gwalior",
+    "url": "/location/gwalior"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_haridwar",
+    "url": "/location/haridwar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_hassan",
+    "url": "/location/hassan"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_hissar",
+    "url": "/location/hissar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_hoshiarpur",
+    "url": "/location/hoshiarpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_hubli",
+    "url": "/location/hubli"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_hyderabad",
+    "url": "/location/hyderabad"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_igatpuri",
+    "url": "/location/igatpuri"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_indore",
+    "url": "/location/indore"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_sakha_kendra_ismalichak",
+    "url": "/location/ismalichak"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_jabalpur",
+    "url": "/location/jabalpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_jaipur",
+    "url": "/location/jaipur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_jajpur",
+    "url": "/location/jajpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_jalandhar",
+    "url": "/location/jalandhar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_jammu",
+    "url": "/location/jammu"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_jamnagar",
+    "url": "/location/jamnagar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_jamshedpur",
+    "url": "/location/jamshedpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_jodhpur",
+    "url": "/location/jodhpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_junagadh",
+    "url": "/location/junagadh"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kadapa",
+    "url": "/location/kadapa"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kaiga-karwar",
+    "url": "/location/karwar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kakinada",
+    "url": "/location/kakinada"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kalaburagi",
+    "url": "/location/kalaburagi"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_kannur",
+    "url": "/location/kannur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kanpur",
+    "url": "/location/kanpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kashidih",
+    "url": "/location/kashidih"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kathgodam",
+    "url": "/location/kathgodam"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kathua",
+    "url": "/location/kathua"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_khammam",
+    "url": "/location/khammam"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kolhapur",
+    "url": "/location/kolhapur"
+  },
+  {
+    "match_url": "/hi/centre/paramahans_yogananda_dhyana_samaj_kopundole_kathmandu",
+    "url": "/location/kopundole"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_korba",
+    "url": "/location/korba"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kota",
+    "url": "/location/kota"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-kottayam",
+    "url": "/location/kottayam"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_krishnagiri",
+    "url": "/location/krishnagiri"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kullu",
+    "url": "/location/kullu"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-kumbakonam",
+    "url": "/location/kumbakonam"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kunjpura",
+    "url": "/location/kunjpura"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kuppam",
+    "url": "/location/kuppam"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kurnool",
+    "url": "/location/kurnool"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kurukshetra",
+    "url": "/location/kurukshetra"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_sakha_ashram_lakhanpur",
+    "url": "/location/lakhanpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_lalitpur",
+    "url": "/location/lalitpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_lucknow",
+    "url": "/location/lucknow"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_ludhiana",
+    "url": "/location/ludhiana"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_machilipatnam",
+    "url": "/location/machilipatnam"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_madanapalle",
+    "url": "/location/madanapalle"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_madurai",
+    "url": "/location/madurai"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_malda",
+    "url": "/location/malda"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_manapparai",
+    "url": "/location/manapparai"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_mandi",
+    "url": "/location/mandi"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_mangalagiri",
+    "url": "/location/mangalagiri"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_mangaluru",
+    "url": "/location/mangaluru"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_mankapur",
+    "url": "/location/mankapur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_meerut",
+    "url": "/location/meerut"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_miraj",
+    "url": "/location/miraj"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_mirzapur",
+    "url": "/location/mirzapur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_mumbai",
+    "url": "/location/mumbai"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_muzaffarnagar",
+    "url": "/location/muzaffarnagar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_muzaffarpur",
+    "url": "/location/muzaffarpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_mysore",
+    "url": "/location/mysore"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nagapattinam",
+    "url": "/location/nagapattinam"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_nagpur",
+    "url": "/location/nagpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nahan",
+    "url": "/location/nahan"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nainital",
+    "url": "/location/nainital"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nallajerla",
+    "url": "/location/nallajerla"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_namakkal",
+    "url": "/location/namakkal"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nasik",
+    "url": "/location/nasik"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nayagarh",
+    "url": "/location/nayagarh"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nellore",
+    "url": "/location/nellore"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_neyyattinkara",
+    "url": "/location/neyyattinkara"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_nimpura",
+    "url": "/location/nimpura"
+  },
+  {
+    "match_url": "/centre/all",
+    "url": "/location/all"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nuzvid",
+    "url": "/location/nuzvid"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-ongole",
+    "url": "/location/ongole"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_palakkad",
+    "url": "/location/palakkad"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_palamaner",
+    "url": "/location/palamaner"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_palampur",
+    "url": "/location/palampur"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-palani",
+    "url": "/location/palani"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_sakha_kendra_palpara",
+    "url": "/location/palpara"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-palus",
+    "url": "/location/palus"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_paramakudi",
+    "url": "/location/paramakudi"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_pathankot",
+    "url": "/location/pathankot"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_patiala",
+    "url": "/location/patiala"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_patna",
+    "url": "/location/patna"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_pithapuram",
+    "url": "/location/pithapuram"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_pokhara",
+    "url": "/location/pokhara"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_pondicherry",
+    "url": "/location/pondicherry"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_porbandar",
+    "url": "/location/porbandar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_prayagraj",
+    "url": "/location/prayagraj"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_pune",
+    "url": "/location/pune"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_puri",
+    "url": "/location/puri"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_raipur",
+    "url": "/location/raipur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_rajahmundry",
+    "url": "/location/rajahmundry"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_rajkot",
+    "url": "/location/rajkot"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_ramanathapuram",
+    "url": "/location/ramanathapuram"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_sakha_math_ranchi",
+    "url": "/location/ranchi"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_raniganj",
+    "url": "/location/rangamati"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_rangamati",
+    "url": "/location/raniganj"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_rawatbhata",
+    "url": "/location/rawatbhata"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-rishikesh",
+    "url": "/location/rishikesh"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_rohtak",
+    "url": "/location/rohtak"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_roorkee",
+    "url": "/location/roorkee"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_rourkela",
+    "url": "/location/rourkela"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_saharanpur",
+    "url": "/location/saharanpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_sahibabad",
+    "url": "/location/sahibabad"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_salem",
+    "url": "/location/salem"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_salipur",
+    "url": "/location/salipur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_sambalpur",
+    "url": "/location/sambalpur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_sankagiri",
+    "url": "/location/sankagiri"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_sant_kabir_nagar",
+    "url": "/location/nagar"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-santiniketan",
+    "url": "/location/santiniketan"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_satara",
+    "url": "/location/satara"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-saundatti",
+    "url": "/location/saundatti"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_serampore",
+    "url": "/location/serampore"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_shimla",
+    "url": "/location/shimla"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_shivamogga",
+    "url": "/location/shivamogga"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_siddapur",
+    "url": "/location/siddapur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_silchar",
+    "url": "/location/silchar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_siliguri",
+    "url": "/location/siliguri"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_sitibinda",
+    "url": "/location/sitibinda"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_solapur",
+    "url": "/location/solan"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_solan",
+    "url": "/location/solapur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_srikakulam",
+    "url": "/location/srikakulam"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_sundernagar",
+    "url": "/location/sundernagar"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_sakha_kendra_suraikhet",
+    "url": "/location/suraikhet"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_surana",
+    "url": "/location/surana"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_surat",
+    "url": "/location/surat"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_suvag",
+    "url": "/location/suvag"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tadepalligudem",
+    "url": "/location/tadepalligudem"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tadipatri",
+    "url": "/location/tadipatri"
+  },
+  {
+    "match_url": "/centre/yogoda-satsanga-dhyana-mandali-talala",
+    "url": "/location/talala"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tandur",
+    "url": "/location/tandur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tanuku",
+    "url": "/location/tanuku"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tapinda",
+    "url": "/location/tapinda"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_telary",
+    "url": "/location/telary"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tenali",
+    "url": "/location/tenali"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_thanjavur",
+    "url": "/location/thanjavur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_thiruthuraipoondi",
+    "url": "/location/thiruthuraipoondi"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_thiruvananthapuram",
+    "url": "/location/thiruvananthapuram"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_thiruvarur",
+    "url": "/location/thiruvarur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_thrissur",
+    "url": "/location/thrissur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tiruchirappalli",
+    "url": "/location/tiruchirappalli"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tirunelveli",
+    "url": "/location/tirunelveli"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tirupati",
+    "url": "/location/tirupati"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tiruppur",
+    "url": "/location/tiruppur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_titilagarh",
+    "url": "/location/titilagarh"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tumkur",
+    "url": "/location/tumkur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_tuni",
+    "url": "/location/tuni"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_udaipur",
+    "url": "/location/udaipur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_udhampur",
+    "url": "/location/udhampur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_udupi",
+    "url": "/location/udupi"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_ujjain",
+    "url": "/location/ujjain"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_vadodara",
+    "url": "/location/vadodara"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_vallabhipur",
+    "url": "/location/vallabhipur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_varanasi",
+    "url": "/location/varanasi"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_vatakara",
+    "url": "/location/vatakara"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_vellore",
+    "url": "/location/vellore"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_vijayawada",
+    "url": "/location/vijapur"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_vijapur",
+    "url": "/location/vijayawada"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_visakhapatnam",
+    "url": "/location/visakhapatnam"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_vizianagaram",
+    "url": "/location/vizianagaram"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_kendra_warangal",
+    "url": "/location/warangal"
+  },
+  {
+    "match_url": "/centre/yogoda_satsanga_dhyana_mandali_yerrampeta",
+    "url": "/location/yerrampeta"
+  }
+]

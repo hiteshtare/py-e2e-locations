@@ -1,0 +1,3780 @@
+{
+    "plugin": {
+        "version": "5.4.2",
+        "date": "Sat, 24 Aug 2024 13:57:17 +0000"
+    },
+    "groups": [
+        {
+            "id": 25,
+            "name": "Centers shift to Locations",
+            "redirects": 0,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": true
+        }
+    ],
+    "redirects": [
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_agartala",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_agartala",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/agartala"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_agra",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_agra",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/agra"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_ahmedabad",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_ahmedabad",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/ahmedabad"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_ajmer",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_ajmer",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/ajmer"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_alladi",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_alladi",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/alladi"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda-satsanga-dhyana-mandali-allepey",
+            "match_url": "/centre/yogoda-satsanga-dhyana-mandali-allepey",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/alleppey"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_alwar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_alwar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/alwar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_amalapuram",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_amalapuram",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/amalapuram"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_ambala",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_ambala",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/ambala"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_amravati",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_amravati",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/amravati"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_amritsar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_amritsar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/amritsar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_sakha_ashram_anandapur",
+            "match_url": "/centre/yogoda_satsanga_sakha_ashram_anandapur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/anandapur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_anantapur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_anantapur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/anantapur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_angul",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_angul",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/angul"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_arsikere",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_arsikere",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/arsikere"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_asansol",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_asansol",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/asansol"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_aurangabad",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_aurangabad",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/aurangabad"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_babai",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_babai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/babai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bailhongal",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bailhongal",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bailhongal"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bellari",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bellari",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/ballari"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_bangalore",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_bangalore",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bangalore"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bapatla",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bapatla",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bapatla"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bareilly",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bareilly",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bareilly"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda-satsanga-dhyana-mandali-bargaon",
+            "match_url": "/centre/yogoda-satsanga-dhyana-mandali-bargaon",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bargaon"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_begusarai",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_begusarai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/begusarai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_belgaum",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_belgaum",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/belagavi"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bharuch",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bharuch",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bharuch"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_bhavnagar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_bhavnagar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bhavnagar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bhilai",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhilai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bhilai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bhimavaram",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhimavaram",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bhimavaram"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bhimtal",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhimtal",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bhimtal"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bhopal",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhopal",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bhopal"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bhowali",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhowali",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bhowali"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_bhubaneswar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_bhubaneswar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bhubaneswar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bhuj",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bhuj",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bhuj"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bijainagar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bijainagar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bijainagar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_bilaspur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_bilaspur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/bilaspur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_brahmapur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_brahmapur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/brahmapur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_calicut",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_calicut",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/calicut"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_chamba",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_chamba",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/chamba"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_chandrapur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_chandrapur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/chandigarh"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_chandigarh",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_chandigarh",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/chandrapur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_channagiri",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_channagiri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/channagiri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_chennai",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_chennai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/chennai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_chittoor",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_chittoor",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/chittoor"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_cochin",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_cochin",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/cochin"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_coimbatore",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_coimbatore",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/coimbatore"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_meditation_group_colombo",
+            "match_url": "/centre/yogoda_satsanga_meditation_group_colombo",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/colombo"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_cuddalore",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_cuddalore",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/cuddalore"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_cuttack",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_cuttack",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/cuttack"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_math_dakshineswar",
+            "match_url": "/centre/yogoda_satsanga_math_dakshineswar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/dakshineswar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_daraunda",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_daraunda",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/daraunda"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_darbhanga",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_darbhanga",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/darbhanga"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_davanagere",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_davanagere",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/davanagere"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_dehradun",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_dehradun",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/dehradun"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_delhi",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_delhi",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/delhi"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_dharapuram",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_dharapuram",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/dharapuram"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda-satsanga-dhyana-mandali-dharmapuri",
+            "match_url": "/centre/yogoda-satsanga-dhyana-mandali-dharmapuri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/dharmapuri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_dharwad",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_dharwad",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/dharwad"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_dhrangadhra",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_dhrangadhra",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/dhrangadhra"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_dihika",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_dihika",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/dihika"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_dindigul",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_dindigul",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/dindigul"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_durgapur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_durgapur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/durgapur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_sakha_ashram_dwarahat",
+            "match_url": "/centre/yogoda_satsanga_sakha_ashram_dwarahat",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/dwarahat"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_eluru",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_eluru",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/eluru"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_faridabad",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_faridabad",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/faridabad"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_gandhidham",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_gandhidham",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/gandhidham"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_garpar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_garpar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/garpar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda-satsanga-dhyana-mandali-gaulapar-haldwani",
+            "match_url": "/centre/yogoda-satsanga-dhyana-mandali-gaulapar-haldwani",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/haldwani"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_sakha_kendra_ghatal",
+            "match_url": "/centre/yogoda_satsanga_sakha_kendra_ghatal",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/ghatal"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_ghaziabad",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_ghaziabad",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/ghaziabad"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_goa",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_goa",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/goa"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_gonda",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_gonda",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/gonda"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_gondal",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_gondal",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/gondal"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_gorakhpur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_gorakhpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/gorakhpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_guntakal",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_guntakal",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/guntakal"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_guntur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_guntur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/guntur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_gurugram",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_gurugram",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/gurugram"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_guwahati",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_guwahati",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/guwahati"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda-satsanga-dhyana-mandali-gwalior",
+            "match_url": "/centre/yogoda-satsanga-dhyana-mandali-gwalior",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/gwalior"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_haridwar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_haridwar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/haridwar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_hassan",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_hassan",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/hassan"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_hissar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_hissar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/hissar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_hoshiarpur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_hoshiarpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/hoshiarpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_hubli",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_hubli",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/hubli"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_hyderabad",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_hyderabad",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/hyderabad"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_igatpuri",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_igatpuri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/igatpuri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_indore",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_indore",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/indore"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_sakha_kendra_ismalichak",
+            "match_url": "/centre/yogoda_satsanga_sakha_kendra_ismalichak",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/ismalichak"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_jabalpur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_jabalpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/jabalpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_jaipur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_jaipur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/jaipur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_jajpur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_jajpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/jajpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_jalandhar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_jalandhar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/jalandhar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_jammu",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_jammu",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/jammu"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_jamnagar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_jamnagar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/jamnagar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_jamshedpur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_jamshedpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/jamshedpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_jodhpur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_jodhpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/jodhpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_junagadh",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_junagadh",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/junagadh"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kadapa",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kadapa",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kadapa"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kaiga-karwar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kaiga-karwar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/karwar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kakinada",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kakinada",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kakinada"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kalaburagi",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kalaburagi",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kalaburagi"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_kannur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_kannur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kannur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kanpur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kanpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kanpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kashidih",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kashidih",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kashidih"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kathgodam",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kathgodam",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kathgodam"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kathua",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kathua",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kathua"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_khammam",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_khammam",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/khammam"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kolhapur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kolhapur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kolhapur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/hi/centre/paramahans_yogananda_dhyana_samaj_kopundole_kathmandu",
+            "match_url": "/hi/centre/paramahans_yogananda_dhyana_samaj_kopundole_kathmandu",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kopundole"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_korba",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_korba",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/korba"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kota",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kota",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kota"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda-satsanga-dhyana-mandali-kottayam",
+            "match_url": "/centre/yogoda-satsanga-dhyana-mandali-kottayam",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kottayam"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_krishnagiri",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_krishnagiri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/krishnagiri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kullu",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kullu",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kullu"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda-satsanga-dhyana-mandali-kumbakonam",
+            "match_url": "/centre/yogoda-satsanga-dhyana-mandali-kumbakonam",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kumbakonam"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kunjpura",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kunjpura",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kunjpura"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kuppam",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kuppam",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kuppam"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kurnool",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kurnool",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kurnool"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_kurukshetra",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_kurukshetra",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/kurukshetra"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_sakha_ashram_lakhanpur",
+            "match_url": "/centre/yogoda_satsanga_sakha_ashram_lakhanpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/lakhanpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_lalitpur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_lalitpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/lalitpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_lucknow",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_lucknow",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/lucknow"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_ludhiana",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_ludhiana",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/ludhiana"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_machilipatnam",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_machilipatnam",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/machilipatnam"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_madanapalle",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_madanapalle",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/madanapalle"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_madurai",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_madurai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/madurai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_malda",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_malda",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/malda"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_manapparai",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_manapparai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/manapparai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_mandi",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_mandi",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/mandi"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_mangalagiri",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_mangalagiri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/mangalagiri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_mangaluru",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_mangaluru",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/mangaluru"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_mankapur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_mankapur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/mankapur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_meerut",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_meerut",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/meerut"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_miraj",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_miraj",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/miraj"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_mirzapur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_mirzapur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/mirzapur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_mumbai",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_mumbai",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/mumbai"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_muzaffarnagar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_muzaffarnagar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/muzaffarnagar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_muzaffarpur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_muzaffarpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/muzaffarpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_mysore",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_mysore",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/mysore"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_nagapattinam",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nagapattinam",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/nagapattinam"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_nagpur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_nagpur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/nagpur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_nahan",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nahan",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/nahan"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_nainital",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nainital",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/nainital"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_nallajerla",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nallajerla",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/nallajerla"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_namakkal",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_namakkal",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/namakkal"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_nasik",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nasik",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/nasik"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_nayagarh",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nayagarh",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/nayagarh"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_nellore",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nellore",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/nellore"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_neyyattinkara",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_neyyattinkara",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/neyyattinkara"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_nimpura",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_nimpura",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/nimpura"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/all",
+            "match_url": "/centre/all",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/all"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_nuzvid",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_nuzvid",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/nuzvid"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda-satsanga-dhyana-mandali-ongole",
+            "match_url": "/centre/yogoda-satsanga-dhyana-mandali-ongole",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/ongole"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_palakkad",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_palakkad",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/palakkad"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_palamaner",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_palamaner",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/palamaner"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_palampur",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_palampur",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/palampur"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda-satsanga-dhyana-mandali-palani",
+            "match_url": "/centre/yogoda-satsanga-dhyana-mandali-palani",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/palani"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_sakha_kendra_palpara",
+            "match_url": "/centre/yogoda_satsanga_sakha_kendra_palpara",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/palpara"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda-satsanga-dhyana-mandali-palus",
+            "match_url": "/centre/yogoda-satsanga-dhyana-mandali-palus",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/palus"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_paramakudi",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_paramakudi",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/paramakudi"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_pathankot",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_pathankot",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/pathankot"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_patiala",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_patiala",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/patiala"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_patna",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_patna",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/patna"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_pithapuram",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_pithapuram",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/pithapuram"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_pokhara",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_pokhara",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/pokhara"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_pondicherry",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_pondicherry",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/pondicherry"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_mandali_porbandar",
+            "match_url": "/centre/yogoda_satsanga_dhyana_mandali_porbandar",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/porbandar"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_prayagraj",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_prayagraj",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/prayagraj"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_pune",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_pune",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/pune"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        },
+        {
+            "url": "/centre/yogoda_satsanga_dhyana_kendra_puri",
+            "match_url": "/centre/yogoda_satsanga_dhyana_kendra_puri",
+            "match_data": {
+                "source": {
+                    "flag_query": "pass",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "/location/puri"
+            },
+            "match_type": "url",
+            "title": "",
+            "regex": false,
+            "group_id": 25,
+            "enabled": true
+        }
+    ]
+}
