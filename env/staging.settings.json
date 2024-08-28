@@ -2,12 +2,24 @@
   "baseUrl": "https://test.yssofindia.org/",
   "env": {
     "greeting": "Alright PY! lets start Cypress on Test site",
-    "ARRIVAL_DATE": "29/08/2024",
-    "DEPARTURE_DATE": "30/08/2024",
-    "ARRIVAL_TIME": "11:00 AM",
-    "DEPARTURE_TIME": "05:00 PM",
-    "PURPOSE_VISIT": "Conducted Retreat",
-    "ADDITION_INFO": "Jai Guru! - Thanks PY!",
-    "IS_ACCOMMODATION_SHARED": false
+    "STEP1_ARRIVAL_DATE": "29/08/2024",
+    "STEP1_DEPARTURE_DATE": "30/08/2024",
+    "STEP1_ARRIVAL_TIME": "11:00 AM",
+    "STEP1_DEPARTURE_TIME": "05:00 PM",
+    "STEP1_PURPOSE_VISIT": "Conducted Retreat",
+    "STEP1_ADDITION_INFO": "Jai Guru! - Thanks PY!",
+    "STEP1_IS_ACCOMMODATION_SHARED": false,
+    "STEP2_NAME": "Hitesh Tare",
+    "STEP2_MOBILE": "9833887224",
+    "STEP2_EMAIL": "ht@gmail.com",
+    "STEP2_GENDER": "Male",
+    "STEP2_AGE": "34",
+    "STEP2_COUNTRY": "101",
+    "STEP2_CITY": "Mumbai",
+    "STEP2_INDIAN_CITIZEN": "Yes",
+    "STEP2_YSS_SRFMEMBER": "YSS",
+    "STEP2_LESSON": "123456",
+    "STEP2_KRIYABAN": "Yes",
+    "STEP2_AGREE_TC": true
   }
 }

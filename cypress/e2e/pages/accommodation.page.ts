@@ -18,7 +18,25 @@ export class AccommodationPages {
   checkbox_AccommodationShared = '#choice_51_44_1';
 
   btnNext = '#gform_next_button_51_54';
+  //Step 1 - Form fields
 
   divValidation = '#gform_51_validation_container';
-  //Step 1 - Form fields
+
+  //Step 2 - Form fields
+  inputName = '#input_51_18';
+  inputMobile = '#input_51_57';
+  inputEmail = '#input_51_55';
+  selectGender = '#input_51_25';
+  inputAge = '#input_51_22';
+  selectCountry = '#input_51_24';
+  inputCity = '#input_51_26';
+  selectIndianCitizen = '#input_51_28';
+  selectYSS_SRFMember = '#input_51_27';
+  inputLesson = '#input_51_29';
+  selectKriyaban = '#input_51_31';
+  checkbox_agreeTC = '#input_51_38_1';
+  
+  btnSubmit = '#gform_submit_button_51';
+  //Step 2 - Form fields
+
 }
