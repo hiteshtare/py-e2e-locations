@@ -149,6 +149,8 @@ describe("Ranchi - Accommodation page", () => {
       cy.get(accommodationPages.checkbox_agreeTC).check()
     }
 
+    captureSreenshot();
+
     //Click on Submit button to submit Form
     cy.get(accommodationPages.btnSubmit).click();
     //Step 2 - Form fields
