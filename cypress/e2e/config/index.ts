@@ -4,7 +4,7 @@ export const TEST_CONFIG = {
   buttonWPMLTamil: ".wpml-ls-item-ta",
   buttonWPMLTelugu: ".wpml-ls-item-te",
   //Global settings
-  captureScreenshotFor: 'viewport',
+  captureScreenshotFor: 'fullPage',
   waitForScreenshot: 2000,
   //Test suit wise
   digitalSampler: {
