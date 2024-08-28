@@ -12,9 +12,9 @@ import { DashboardPages } from "./pages/dashboard.page";
 
 const dashboardPages = new DashboardPages();
 
-describe.skip("Dashboard page", () => {
+describe.skip("List of Centres page", () => {
   beforeEach(() => {
-    cy.visit("/teachings-library");
+    cy.visit("/list-of-centres");
   });
 
   let arritemArr: any[] = [];

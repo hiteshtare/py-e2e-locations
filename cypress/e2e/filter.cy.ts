@@ -7,7 +7,7 @@ const filterPages = new FilterPages();
 
 describe.skip("Filter menu", () => {
   beforeEach(() => {
-    cy.visit("/teachings-library");
+    cy.visit("/list-of-centres");
 
     //Open filter menu
     cy.get(filterPages.btnFilterTitle).click();

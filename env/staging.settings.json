@@ -1,6 +1,13 @@
 {
   "baseUrl": "https://test.yssofindia.org/",
   "env": {
-    "greeting": "Alright PY! lets start Cypress on Test site"
+    "greeting": "Alright PY! lets start Cypress on Test site",
+    "ARRIVAL_DATE": "29/08/2024",
+    "DEPARTURE_DATE": "30/08/2024",
+    "ARRIVAL_TIME": "11:00 AM",
+    "DEPARTURE_TIME": "05:00 PM",
+    "PURPOSE_VISIT": "Conducted Retreat",
+    "ADDITION_INFO": "Jai Guru! - Thanks PY!",
+    "IS_ACCOMMODATION_SHARED": false
   }
 }
