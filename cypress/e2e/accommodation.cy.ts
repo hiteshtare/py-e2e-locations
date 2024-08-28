@@ -2,6 +2,7 @@
 import {
   captureSreenshot,
   checkIfElementExist,
+  checkIfElementIsVisible,
   checkIfElementNotExist,
   checkStatus200ForLink,
   getElementLink,
@@ -17,11 +18,18 @@ describe("Ranchi - Accommodation page", () => {
     cy.visit("/ranchi-accommodation");
   });
 
-  it("Title should contain 'Accommodation'", () => {
+  it("Form Title should contain  'Accommodation'", () => {
     cy.get(accommodationPages.divTitle).contains('Accommodation')
   });
 
-  it("Should submit STEP-1", () => {
+  it("Form should fire validation, if input fields are empty", () => {
+    //Click on Next button to submit Form
+    cy.get(accommodationPages.btnNext).click();
+
+    checkIfElementIsVisible(accommodationPages.divValidation);
+  });
+
+  it("Form should submit STEP-1 after all input fields are filled", () => {
     cy.get(accommodationPages.inputArrivalDate).type(Cypress.env("ARRIVAL_DATE"));
     cy.get(accommodationPages.inputDepartureDate).type(Cypress.env("DEPARTURE_DATE"));
     //Set Dropdown value on Form
@@ -36,9 +44,15 @@ describe("Ranchi - Accommodation page", () => {
     });
     cy.get(accommodationPages.inputAdditionalInformation).type(Cypress.env("ADDITION_INFO"));
 
+    //Set checkbox value on Form
     const isAccommodationShared = Cypress.env("IS_ACCOMMODATION_SHARED");
     if (isAccommodationShared === true) {
       cy.get(accommodationPages.checkbox_AccommodationShared).check()
     }
+
+    captureSreenshot();
+    
+    //Click on Next button to submit Form
+    cy.get(accommodationPages.btnNext).click();
   });
 });

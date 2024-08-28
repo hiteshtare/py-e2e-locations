@@ -16,5 +16,9 @@ export class AccommodationPages {
   selectPurposeofVisit = '#input_51_15';
   inputAdditionalInformation = '#input_51_16';
   checkbox_AccommodationShared = '#choice_51_44_1';
+
+  btnNext = '#gform_next_button_51_54';
+
+  divValidation = '#gform_51_validation_container';
   //Step 1 - Form fields
 }
