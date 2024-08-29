@@ -1,8 +1,5 @@
 // Import common util
-import {
-  captureSreenshot,
-  checkIfElementIsVisible,
-} from "./util/common.util";
+import { captureSreenshot, checkIfElementIsVisible } from "./util/common.util";
 
 import { AccommodationPages } from "./pages/accommodation.page";
 
@@ -13,133 +10,137 @@ describe("Ranchi - Accommodation page", () => {
     cy.visit("/ranchi-accommodation");
   });
 
-  it("Form Title should contain  'Accommodation'", () => {
-    cy.get(accommodationPages.divTitle).contains('Accommodation')
+  describe("STEP-1", () => {
+    it("STEP-1: Form Title should contain  'Accommodation'", () => {
+      cy.get(accommodationPages.divTitle).contains("Accommodation");
+    });
+
+    it("STEP-1: Form should fire validation, if input fields are empty", () => {
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+
+      checkIfElementIsVisible(accommodationPages.divValidation);
+    });
+
+    it("STEP-1: Form should submit after all input fields are filled", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields();
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+    });
   });
 
-  it("Form for STEP-1 should fire validation, if input fields are empty", () => {
-    //Click on Next button to submit Form
-    cy.get(accommodationPages.btnNext).click();
+  describe("STEP-2", () => {
+    it("STEP-2: Member Modal should fire validation, if input fields are empty", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields();
 
-    checkIfElementIsVisible(accommodationPages.divValidation);
-  });
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+      //Step 1 - Form fields
 
-  it("Form for STEP-1 should submit after all input fields are filled", () => {
-    //Populate Step 1 - Form fields
-    accommodationPages.populateStep1_fields();
+      //Populate Step 2 - Form fields
+      // accommodationPages.populateStep2_fields();
 
-    //Click on Next button to submit Form
-    cy.get(accommodationPages.btnNext).click();
-  });
+      /* --------------------- Add Member --------------------- */
+      cy.get(accommodationPages.btnAddMember).click();
 
-  it("Member Modal for STEP-2 should fire validation, if input fields are empty", () => {
-    //Populate Step 1 - Form fields
-    accommodationPages.populateStep1_fields();
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
 
-    //Click on Next button to submit Form
-    cy.get(accommodationPages.btnNext).click();
-    //Step 1 - Form fields
+      checkIfElementIsVisible(accommodationPages.modal_divValidation);
+      /* --------------------- Add Member --------------------- */
+    });
 
-    //Populate Step 2 - Form fields
-    // accommodationPages.populateStep2_fields();
+    it("STEP-2: Form should Not Add member", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields();
 
-    /* --------------------- Add Member --------------------- */
-    cy.get(accommodationPages.btnAddMember).click();
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+      //Step 1 - Form fields
 
-    //Click on Add button to add new Member
-    cy.get(accommodationPages.btnAdd).click();
+      //Populate Step 2 - Form fields
+      // accommodationPages.populateStep2_fields();
 
-    checkIfElementIsVisible(accommodationPages.modal_divValidation);
-    /* --------------------- Add Member --------------------- */
-  });
+      /* --------------------- Add Member --------------------- */
+      cy.get(accommodationPages.btnAddMember).click();
 
-  it("Form for STEP-2 should Not member", () => {
-    //Populate Step 1 - Form fields
-    accommodationPages.populateStep1_fields();
+      accommodationPages.populateModal_fields();
 
-    //Click on Next button to submit Form
-    cy.get(accommodationPages.btnNext).click();
-    //Step 1 - Form fields
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnCancel).click();
 
-    //Populate Step 2 - Form fields
-    // accommodationPages.populateStep2_fields();
+      captureSreenshot();
+      /* --------------------- Add Member --------------------- */
 
-    /* --------------------- Add Member --------------------- */
-    cy.get(accommodationPages.btnAddMember).click();
+      //Click on Submit button to submit Form
+      // cy.get(accommodationPages.btnSubmit).click();
 
-    accommodationPages.populateModal_fields();
+      // checkIfElementIsVisible(accommodationPages.divValidation);
+      //Step 2 - Form fields
+    });
 
-    //Click on Add button to add new Member
-    cy.get(accommodationPages.btnCancel).click();
+    it("STEP-2: Form should Add 1 member", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields();
 
-    captureSreenshot();
-    /* --------------------- Add Member --------------------- */
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+      //Step 1 - Form fields
 
-    //Click on Submit button to submit Form
-    // cy.get(accommodationPages.btnSubmit).click();
+      //Populate Step 2 - Form fields
+      accommodationPages.populateStep2_fields();
 
-    // checkIfElementIsVisible(accommodationPages.divValidation);
-    //Step 2 - Form fields
-  });
+      /* --------------------- Add Member --------------------- */
+      cy.get(accommodationPages.btnAddMember).click();
 
-  it("Form for STEP-2 should Add 1 member", () => {
-    //Populate Step 1 - Form fields
-    accommodationPages.populateStep1_fields();
+      accommodationPages.populateModal_fields();
 
-    //Click on Next button to submit Form
-    cy.get(accommodationPages.btnNext).click();
-    //Step 1 - Form fields
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
 
-    //Populate Step 2 - Form fields
-    accommodationPages.populateStep2_fields();
+      captureSreenshot();
+      /* --------------------- Add Member --------------------- */
 
-    /* --------------------- Add Member --------------------- */
-    cy.get(accommodationPages.btnAddMember).click();
+      //Click on Submit button to submit Form
+      // cy.get(accommodationPages.btnSubmit).click();
 
-    accommodationPages.populateModal_fields();
+      // checkIfElementIsVisible(accommodationPages.divValidation);
+      //Step 2 - Form fields
+    });
 
-    //Click on Add button to add new Member
-    cy.get(accommodationPages.btnAdd).click();
+    it("STEP-2: Form should fire validation, if input fields are empty", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields();
 
-    captureSreenshot();
-    /* --------------------- Add Member --------------------- */
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+      //Step 1 - Form fields
 
-    //Click on Submit button to submit Form
-    // cy.get(accommodationPages.btnSubmit).click();
+      //Step 2 - Form fields
+      //Click on Submit button to submit Form
+      cy.get(accommodationPages.btnSubmit).click();
 
-    // checkIfElementIsVisible(accommodationPages.divValidation);
-    //Step 2 - Form fields
-  });
-  
-  it("Form for STEP-2 should fire validation, if input fields are empty", () => {
-    //Populate Step 1 - Form fields
-    accommodationPages.populateStep1_fields();
+      checkIfElementIsVisible(accommodationPages.divValidation);
+      //Step 2 - Form fields
+    });
 
-    //Click on Next button to submit Form
-    cy.get(accommodationPages.btnNext).click();
-    //Step 1 - Form fields
+    it("STEP-2: Form should submit STEP-1 & STEP-2 after all input fields are filled", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields();
 
-    //Step 2 - Form fields
-    //Click on Submit button to submit Form
-    cy.get(accommodationPages.btnSubmit).click();
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+      //Step 1 - Form fields
 
-    checkIfElementIsVisible(accommodationPages.divValidation);
-    //Step 2 - Form fields
-  });
+      //Populate Step 2 - Form fields
+      accommodationPages.populateStep2_fields();
 
-  it("Form should submit STEP-1 & STEP-2 after all input fields are filled", () => {
-    //Populate Step 1 - Form fields
-    accommodationPages.populateStep1_fields();
-
-    //Click on Next button to submit Form
-    cy.get(accommodationPages.btnNext).click();
-    //Step 1 - Form fields
-
-    //Populate Step 2 - Form fields
-    accommodationPages.populateStep2_fields();
-
-    //Click on Submit button to submit Form
-    cy.get(accommodationPages.btnSubmit).click();
-    //Step 2 - Form fields
+      //Click on Submit button to submit Form
+      cy.get(accommodationPages.btnSubmit).click();
+      //Step 2 - Form fields
+    });
   });
 });
