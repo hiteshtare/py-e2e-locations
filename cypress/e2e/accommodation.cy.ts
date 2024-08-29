@@ -152,7 +152,7 @@ describe("Ranchi - Accommodation page", () => {
       //Step 2 - Form fields
     });
 
-    it.only("STEP-2: Form should submit without member", () => {
+    it("STEP-2: Form should submit without member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields();
 
@@ -166,9 +166,12 @@ describe("Ranchi - Accommodation page", () => {
       //Click on Submit button to submit Form
       cy.get(accommodationPages.btnSubmit).click();
       //Step 2 - Form fields
+
+      //Capture sc after submit to capture Notification
+      captureSreenshot(2000);
     });
 
-    it.only("STEP-2: Form should submit with 1 member", () => {
+    it("STEP-2: Form should submit with 1 member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields();
 
@@ -193,6 +196,9 @@ describe("Ranchi - Accommodation page", () => {
       //Click on Submit button to submit Form
       cy.get(accommodationPages.btnSubmit).click();
       //Step 2 - Form fields
+
+      //Capture sc after submit to capture Notification
+      captureSreenshot(2000);
     });
 
     it.only("STEP-2: Form should submit with 2 members", () => {
@@ -228,6 +234,9 @@ describe("Ranchi - Accommodation page", () => {
       //Click on Submit button to submit Form
       cy.get(accommodationPages.btnSubmit).click();
       //Step 2 - Form fields
+
+      //Capture sc after submit to capture Notification
+      captureSreenshot(2000);
     });
   });
 });
