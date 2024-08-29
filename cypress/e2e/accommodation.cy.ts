@@ -72,7 +72,7 @@ describe("Ranchi - Accommodation page", () => {
       //Click on Add button to add new Member
       cy.get(accommodationPages.btnCancel).click();
 
-      captureSreenshot();
+      captureSreenshot(2000);
       /* --------------------- Add Member --------------------- */
 
       //Click on Submit button to submit Form
@@ -91,7 +91,7 @@ describe("Ranchi - Accommodation page", () => {
       //Step 1 - Form fields
 
       //Populate Step 2 - Form fields
-      accommodationPages.populateStep2_fields();
+      // accommodationPages.populateStep2_fields();
 
       /* --------------------- Add Member --------------------- */
       cy.get(accommodationPages.btnAddMember).click();
@@ -101,7 +101,7 @@ describe("Ranchi - Accommodation page", () => {
       //Click on Add button to add new Member
       cy.get(accommodationPages.btnAdd).click();
 
-      captureSreenshot();
+      captureSreenshot(2000);
       /* --------------------- Add Member --------------------- */
 
       //Click on Submit button to submit Form

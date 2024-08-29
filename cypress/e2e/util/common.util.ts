@@ -49,7 +49,7 @@ export function checkIfElementIsClickable(
 }
 
 export function captureSreenshot(seconds = 0) {
-  cy.wait(seconds).screenshot({ capture: "viewport" });
+  cy.wait(seconds).screenshot({ capture: "fullPage" });
 }
 
 export function checkStatus200ForLink(selector: string) {

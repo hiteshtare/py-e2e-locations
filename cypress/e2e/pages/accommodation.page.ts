@@ -112,7 +112,7 @@ export class AccommodationPages {
       cy.get(this.checkbox_agreeTC).check()
     }
 
-    captureSreenshot();
+    captureSreenshot(2000);
   }
 
   populateModal_fields() {
