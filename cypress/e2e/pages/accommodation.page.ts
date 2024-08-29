@@ -116,20 +116,39 @@ export class AccommodationPages {
   }
 
   populateModal_fields() {
-    cy.get(this.modal_inputName).type(Cypress.env("MEMBER_NAME"));
+    cy.get(this.modal_inputName).type(Cypress.env("MEMBER1_NAME"));
     //Set Dropdown value on Form
-    cy.get(this.modal_selectGender).select(Cypress.env("MEMBER_GENDER"), {
+    cy.get(this.modal_selectGender).select(Cypress.env("MEMBER1_GENDER"), {
       force: true,
     });
-    cy.get(this.modal_inputAge).type(Cypress.env("MEMBER_AGE"));
+    cy.get(this.modal_inputAge).type(Cypress.env("MEMBER1_AGE"));
     
-    cy.get(this.modal_selectRelationship).select(Cypress.env("MEMBER_RELATIONSHIP"), {
+    cy.get(this.modal_selectRelationship).select(Cypress.env("MEMBER1_RELATIONSHIP"), {
       force: true,
     });
-    cy.get(this.modal_selectYSS_SRFMember).select(Cypress.env("MEMBER_YSS_SRFMEMBER"), {
+    cy.get(this.modal_selectYSS_SRFMember).select(Cypress.env("MEMBER1_YSS_SRFMEMBER"), {
       force: true,
     });
-    cy.get(this.modal_inputLesson).type(Cypress.env("MEMBER_LESSON"));
+    cy.get(this.modal_inputLesson).type(Cypress.env("MEMBER1_LESSON"));
+
+    captureSreenshot();
+  }
+
+  populateModal_fields_2() {
+    cy.get(this.modal_inputName).type(Cypress.env("MEMBER2_NAME"));
+    //Set Dropdown value on Form
+    cy.get(this.modal_selectGender).select(Cypress.env("MEMBER2_GENDER"), {
+      force: true,
+    });
+    cy.get(this.modal_inputAge).type(Cypress.env("MEMBER2_AGE"));
+    
+    cy.get(this.modal_selectRelationship).select(Cypress.env("MEMBER2_RELATIONSHIP"), {
+      force: true,
+    });
+    cy.get(this.modal_selectYSS_SRFMember).select(Cypress.env("MEMBER2_YSS_SRFMEMBER"), {
+      force: true,
+    });
+    cy.get(this.modal_inputLesson).type(Cypress.env("MEMBER2_LESSON"));
 
     captureSreenshot();
   }
