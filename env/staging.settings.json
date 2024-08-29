@@ -20,6 +20,11 @@
     "STEP2_YSS_SRFMEMBER": "YSS",
     "STEP2_LESSON": "123456",
     "STEP2_KRIYABAN": "Yes",
-    "STEP2_AGREE_TC": true
+    "MEMBER_NAME": "Trupti",
+    "MEMBER_GENDER": "Female",
+    "MEMBER_AGE": "33",
+    "MEMBER_RELATIONSHIP": "Sibling",
+    "MEMBER_YSS_SRFMEMBER": "SRF",
+    "MEMBER_LESSON": "321654"
   }
 }

@@ -37,6 +37,22 @@ export class AccommodationPages {
   checkbox_agreeTC = '#input_51_38_1';
   
   btnSubmit = '#gform_submit_button_51';
+
+  /* --------------------- Add Member --------------------- */
+  btnAddMember = '.gpnf-add-entry';
+  
+  modal_inputName = '#input_52_1';
+  modal_selectGender = '#input_52_6';
+  modal_inputAge = '#input_52_5';
+  modal_selectRelationship = '#input_52_3';
+  modal_selectYSS_SRFMember = '#input_52_7';
+  modal_inputLesson = '#input_52_8';
+
+  btnCancel = '.gpnf-btn-cancel';
+  btnAdd = '.gpnf-btn-submit';
+  
+  modal_divValidation = '#gform_52_validation_container';
+  /* --------------------- Add Member --------------------- */
   //Step 2 - Form fields
 
   populateStep1_fields() { 
@@ -98,5 +114,25 @@ export class AccommodationPages {
 
     captureSreenshot();
   }
+
+  populateModal_fields() {
+    cy.get(this.modal_inputName).type(Cypress.env("MEMBER_NAME"));
+    //Set Dropdown value on Form
+    cy.get(this.modal_selectGender).select(Cypress.env("MEMBER_GENDER"), {
+      force: true,
+    });
+    cy.get(this.modal_inputAge).type(Cypress.env("MEMBER_AGE"));
+    
+    cy.get(this.modal_selectRelationship).select(Cypress.env("MEMBER_RELATIONSHIP"), {
+      force: true,
+    });
+    cy.get(this.modal_selectYSS_SRFMember).select(Cypress.env("MEMBER_YSS_SRFMEMBER"), {
+      force: true,
+    });
+    cy.get(this.modal_inputLesson).type(Cypress.env("MEMBER_LESSON"));
+
+    captureSreenshot();
+  }
+
 
 }
