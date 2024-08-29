@@ -39,4 +39,64 @@ export class AccommodationPages {
   btnSubmit = '#gform_submit_button_51';
   //Step 2 - Form fields
 
+  populateStep1_fields() { 
+    cy.get(this.inputArrivalDate).type(Cypress.env("STEP1_ARRIVAL_DATE"));
+    cy.get(this.inputDepartureDate).type(Cypress.env("STEP1_DEPARTURE_DATE"));
+    //Set Dropdown value on Form
+    cy.get(this.selectArrivalTime).select(Cypress.env("STEP1_ARRIVAL_TIME"), {
+      force: true,
+    });
+    cy.get(this.selectDepartureTime).select(Cypress.env("STEP1_DEPARTURE_TIME"), {
+      force: true,
+    });
+    cy.get(this.selectPurposeofVisit).select(Cypress.env("STEP1_PURPOSE_VISIT"), {
+      force: true,
+    });
+    cy.get(this.inputAdditionalInformation).type(Cypress.env("STEP1_ADDITION_INFO"));
+
+    //Set checkbox value on Form
+    const isAccommodationShared = Cypress.env("STEP1_IS_ACCOMMODATION_SHARED");
+    if (isAccommodationShared === true) {
+      cy.get(this.checkbox_AccommodationShared).check()
+    }
+
+    captureSreenshot();
+  }
+
+  populateStep2_fields() { 
+    cy.get(this.inputName).type(Cypress.env("STEP2_NAME"));
+   
+    cy.get(this.inputMobile).type(Cypress.env("STEP2_MOBILE"));
+    cy.get(this.inputEmail).type(Cypress.env("STEP2_EMAIL"));
+    //Set Dropdown value on Form
+    cy.get(this.selectGender).select(Cypress.env("STEP2_GENDER"), {
+      force: true,
+    });
+    cy.get(this.inputAge).type(Cypress.env("STEP2_AGE"));
+   
+    cy.get(this.selectCountry).select(Cypress.env("STEP2_COUNTRY"), {
+      force: true,
+    });
+    cy.get(this.inputCity).type(Cypress.env("STEP2_CITY"));
+    cy.get(this.selectIndianCitizen).select(Cypress.env("STEP2_INDIAN_CITIZEN"), {
+      force: true,
+    });
+    
+    cy.get(this.selectYSS_SRFMember).select(Cypress.env("STEP2_YSS_SRFMEMBER"), {
+      force: true,
+    });
+    cy.get(this.inputLesson).type(Cypress.env("STEP2_LESSON"));
+    cy.get(this.selectKriyaban).select(Cypress.env("STEP2_KRIYABAN"), {
+      force: true,
+    });
+
+    //Set checkbox value on Form
+    const agreeTC = Cypress.env("STEP2_AGREE_TC");
+    if (agreeTC === true) {
+      cy.get(this.checkbox_agreeTC).check()
+    }
+
+    captureSreenshot();
+  }
+
 }
