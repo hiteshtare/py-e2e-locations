@@ -103,12 +103,6 @@ describe("Ranchi - Accommodation page", () => {
 
       captureSreenshot(2000);
       /* --------------------- Add Member --------------------- */
-
-      //Click on Submit button to submit Form
-      // cy.get(accommodationPages.btnSubmit).click();
-
-      // checkIfElementIsVisible(accommodationPages.divValidation);
-      //Step 2 - Form fields
     });
 
     it("STEP-2: Form should Add 2 members", () => {
@@ -140,12 +134,6 @@ describe("Ranchi - Accommodation page", () => {
 
       captureSreenshot(2000);
       /* --------------------- Add Member --------------------- */
-
-      //Click on Submit button to submit Form
-      // cy.get(accommodationPages.btnSubmit).click();
-
-      // checkIfElementIsVisible(accommodationPages.divValidation);
-      //Step 2 - Form fields
     });
 
     it("STEP-2: Form should fire validation, if input fields are empty", () => {
@@ -164,7 +152,7 @@ describe("Ranchi - Accommodation page", () => {
       //Step 2 - Form fields
     });
 
-    it("STEP-2: Form should submit STEP-1 & STEP-2 after all input fields are filled", () => {
+    it.only("STEP-2: Form should submit without member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields();
 
@@ -175,6 +163,68 @@ describe("Ranchi - Accommodation page", () => {
       //Populate Step 2 - Form fields
       accommodationPages.populateStep2_fields();
 
+      //Click on Submit button to submit Form
+      cy.get(accommodationPages.btnSubmit).click();
+      //Step 2 - Form fields
+    });
+
+    it.only("STEP-2: Form should submit with 1 member", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields();
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+      //Step 1 - Form fields
+
+      //Populate Step 2 - Form fields
+      accommodationPages.populateStep2_fields();
+
+      /* --------------------- Add Member --------------------- */
+      cy.get(accommodationPages.btnAddMember).click();
+
+      accommodationPages.populateModal_fields();
+
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
+
+      captureSreenshot(2000);
+      /* --------------------- Add Member --------------------- */
+
+      //Click on Submit button to submit Form
+      cy.get(accommodationPages.btnSubmit).click();
+      //Step 2 - Form fields
+    });
+
+    it.only("STEP-2: Form should submit with 2 members", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields();
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+      //Step 1 - Form fields
+
+      //Populate Step 2 - Form fields
+      accommodationPages.populateStep2_fields();
+
+      /* --------------------- Add Member --------------------- */
+      cy.get(accommodationPages.btnAddMember).click();
+
+      accommodationPages.populateModal_fields();
+
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
+
+      //Add second Member
+      cy.get(accommodationPages.btnAddMember).click();
+
+      accommodationPages.populateModal_fields_2();
+
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
+
+      captureSreenshot(2000);
+      /* --------------------- Add Member --------------------- */
+      
       //Click on Submit button to submit Form
       cy.get(accommodationPages.btnSubmit).click();
       //Step 2 - Form fields
