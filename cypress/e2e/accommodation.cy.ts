@@ -201,7 +201,7 @@ describe("Ranchi - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it.only("STEP-2: Form should submit with 2 members", () => {
+    it("STEP-2: Form should submit with 2 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields();
 
