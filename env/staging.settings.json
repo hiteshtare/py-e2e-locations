@@ -2,8 +2,8 @@
   "baseUrl": "https://test.yssofindia.org/",
   "env": {
     "greeting": "Alright PY! lets start Cypress on Test site",
-    "STEP1_ARRIVAL_DATE": "29/08/2024",
-    "STEP1_DEPARTURE_DATE": "30/08/2024",
+    "STEP1_ARRIVAL_DATE": "29/12/2024",
+    "STEP1_DEPARTURE_DATE": "31/12/2024",
     "STEP1_ARRIVAL_TIME": "11:00 AM",
     "STEP1_DEPARTURE_TIME": "05:00 PM",
     "STEP1_PURPOSE_VISIT": "Conducted Retreat",
