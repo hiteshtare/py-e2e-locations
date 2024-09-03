@@ -52,6 +52,8 @@ export class AccommodationPages {
   btnAdd = '.gpnf-btn-submit';
   
   modal_divValidation = '#gform_52_validation_container';
+  divAddEntryMax = '.gpnf-add-entry-max';
+
   /* --------------------- Add Member --------------------- */
   //Step 2 - Form fields
 
@@ -149,6 +151,25 @@ export class AccommodationPages {
       force: true,
     });
     cy.get(this.modal_inputLesson).type(Cypress.env("MEMBER2_LESSON"));
+
+    captureSreenshot();
+  }
+
+  populateModal_fields_3() {
+    cy.get(this.modal_inputName).type(Cypress.env("MEMBER3_NAME"));
+    //Set Dropdown value on Form
+    cy.get(this.modal_selectGender).select(Cypress.env("MEMBER3_GENDER"), {
+      force: true,
+    });
+    cy.get(this.modal_inputAge).type(Cypress.env("MEMBER3_AGE"));
+    
+    cy.get(this.modal_selectRelationship).select(Cypress.env("MEMBER3_RELATIONSHIP"), {
+      force: true,
+    });
+    cy.get(this.modal_selectYSS_SRFMember).select(Cypress.env("MEMBER3_YSS_SRFMEMBER"), {
+      force: true,
+    });
+    cy.get(this.modal_inputLesson).type(Cypress.env("MEMBER3_LESSON"));
 
     captureSreenshot();
   }

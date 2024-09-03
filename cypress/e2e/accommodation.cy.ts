@@ -238,5 +238,95 @@ describe("Ranchi - Accommodation page", () => {
       //Capture sc after submit to capture Notification
       captureSreenshot(2000);
     });
+
+    it("STEP-2: Form should submit with 3 members", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields();
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+      //Step 1 - Form fields
+
+      //Populate Step 2 - Form fields
+      accommodationPages.populateStep2_fields();
+
+      /* --------------------- Add Member --------------------- */
+      cy.get(accommodationPages.btnAddMember).click();
+
+      accommodationPages.populateModal_fields();
+
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
+
+      //Add second Member
+      cy.get(accommodationPages.btnAddMember).click();
+
+      accommodationPages.populateModal_fields_2();
+
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
+
+      //Add third Member
+      cy.get(accommodationPages.btnAddMember).click();
+
+      accommodationPages.populateModal_fields_3();
+
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
+
+      captureSreenshot(2000);
+      /* --------------------- Add Member --------------------- */
+      
+      //Click on Submit button to submit Form
+      cy.get(accommodationPages.btnSubmit).click();
+      //Step 2 - Form fields
+
+      //Capture sc after submit to capture Notification
+      captureSreenshot(2000);
+    });
+
+    it("STEP-2: Form should fire validation (Max Entries) more than 3 members", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields();
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext).click();
+      //Step 1 - Form fields
+
+      //Populate Step 2 - Form fields
+      accommodationPages.populateStep2_fields();
+
+      /* --------------------- Add Member --------------------- */
+      cy.get(accommodationPages.btnAddMember).click();
+
+      accommodationPages.populateModal_fields();
+
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
+
+      //Add second Member
+      cy.get(accommodationPages.btnAddMember).click();
+
+      accommodationPages.populateModal_fields_2();
+
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
+
+      //Add third Member
+      cy.get(accommodationPages.btnAddMember).click();
+
+      accommodationPages.populateModal_fields_3();
+
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd).click();
+
+      //Add Fourth Member
+      // cy.get(accommodationPages.btnAddMember).click()
+
+      checkIfElementIsVisible(accommodationPages.divAddEntryMax);
+
+      captureSreenshot(2000);
+      /* --------------------- Add Member --------------------- */
+    });
   });
 });
