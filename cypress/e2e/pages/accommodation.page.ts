@@ -8,35 +8,40 @@ export class AccommodationPages {
  
   divTitle = '.elementor-heading-title';
 
-  //Step 1 - Form fields
-  inputArrivalDate = '#input_51_9';
-  inputDepartureDate = '#input_51_12';
-  selectArrivalTime = '#input_51_14';
-  selectDepartureTime = '#input_51_13';
-  selectPurposeofVisit = '#input_51_15';
-  inputAdditionalInformation = '#input_51_16';
-  checkbox_AccommodationShared = '#choice_51_44_1';
+  mappingPlaceFormId = {
+    ranchi: '_51',
+    dakshineswar: '_53'
+  };
 
-  btnNext = '#gform_next_button_51_54';
+  //Step 1 - Form fields
+  inputArrivalDate = '#input_<FORM_ID>_9';
+  inputDepartureDate = '#input_<FORM_ID>_12';
+  selectArrivalTime = '#input_<FORM_ID>_14';
+  selectDepartureTime = '#input_<FORM_ID>_13';
+  selectPurposeofVisit = '#input_<FORM_ID>_15';
+  inputAdditionalInformation = '#input_<FORM_ID>_16';
+  checkbox_AccommodationShared = '#choice_<FORM_ID>_44_1';
+
+  btnNext = '#gform_next_button_<FORM_ID>_54';
   //Step 1 - Form fields
 
-  divValidation = '#gform_51_validation_container';
+  divValidation = '#gform_<FORM_ID>_validation_container';
 
   //Step 2 - Form fields
-  inputName = '#input_51_18';
-  inputMobile = '#input_51_57';
-  inputEmail = '#input_51_55';
-  selectGender = '#input_51_25';
-  inputAge = '#input_51_22';
-  selectCountry = '#input_51_24';
-  inputCity = '#input_51_26';
-  selectIndianCitizen = '#input_51_28';
-  selectYSS_SRFMember = '#input_51_27';
-  inputLesson = '#input_51_29';
-  selectKriyaban = '#input_51_31';
-  checkbox_agreeTC = '#input_51_38_1';
+  inputName = '#input_<FORM_ID>_18';
+  inputMobile = '#input_<FORM_ID>_57';
+  inputEmail = '#input_<FORM_ID>_55';
+  selectGender = '#input_<FORM_ID>_25';
+  inputAge = '#input_<FORM_ID>_22';
+  selectCountry = '#input_<FORM_ID>_24';
+  inputCity = '#input_<FORM_ID>_26';
+  selectIndianCitizen = '#input_<FORM_ID>_28';
+  selectYSS_SRFMember = '#input_<FORM_ID>_27';
+  inputLesson = '#input_<FORM_ID>_29';
+  selectKriyaban = '#input_<FORM_ID>_31';
+  checkbox_agreeTC = '#input_<FORM_ID>_38_1';
   
-  btnSubmit = '#gform_submit_button_51';
+  btnSubmit = '#gform_submit_button_<FORM_ID>';
 
   /* --------------------- Add Member --------------------- */
   btnAddMember = '.gpnf-add-entry';
@@ -57,61 +62,61 @@ export class AccommodationPages {
   /* --------------------- Add Member --------------------- */
   //Step 2 - Form fields
 
-  populateStep1_fields() { 
-    cy.get(this.inputArrivalDate).type(Cypress.env("STEP1_ARRIVAL_DATE"));
-    cy.get(this.inputDepartureDate).type(Cypress.env("STEP1_DEPARTURE_DATE"));
+  populateStep1_fields(formId:string) { 
+    cy.get(this.inputArrivalDate.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_ARRIVAL_DATE"));
+    cy.get(this.inputDepartureDate.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_DEPARTURE_DATE"));
     //Set Dropdown value on Form
-    cy.get(this.selectArrivalTime).select(Cypress.env("STEP1_ARRIVAL_TIME"), {
+    cy.get(this.selectArrivalTime.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP1_ARRIVAL_TIME"), {
       force: true,
     });
-    cy.get(this.selectDepartureTime).select(Cypress.env("STEP1_DEPARTURE_TIME"), {
+    cy.get(this.selectDepartureTime.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP1_DEPARTURE_TIME"), {
       force: true,
     });
-    cy.get(this.selectPurposeofVisit).select(Cypress.env("STEP1_PURPOSE_VISIT"), {
+    cy.get(this.selectPurposeofVisit.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP1_PURPOSE_VISIT"), {
       force: true,
     });
-    cy.get(this.inputAdditionalInformation).type(Cypress.env("STEP1_ADDITION_INFO"));
+    cy.get(this.inputAdditionalInformation.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_ADDITION_INFO"));
 
     //Set checkbox value on Form
     const isAccommodationShared = Cypress.env("STEP1_IS_ACCOMMODATION_SHARED");
     if (isAccommodationShared === true) {
-      cy.get(this.checkbox_AccommodationShared).check()
+      cy.get(this.checkbox_AccommodationShared.replace('_<FORM_ID>',formId)).check()
     }
 
     captureSreenshot();
   }
 
-  populateStep2_fields() { 
-    cy.get(this.inputName).type(Cypress.env("STEP2_NAME"));
+  populateStep2_fields(formId:string) { 
+    cy.get(this.inputName.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_NAME"));
    
-    cy.get(this.inputMobile).type(Cypress.env("STEP2_MOBILE"));
-    cy.get(this.inputEmail).type(Cypress.env("STEP2_EMAIL"));
+    cy.get(this.inputMobile.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_MOBILE"));
+    cy.get(this.inputEmail.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_EMAIL"));
     //Set Dropdown value on Form
-    cy.get(this.selectGender).select(Cypress.env("STEP2_GENDER"), {
+    cy.get(this.selectGender.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP2_GENDER"), {
       force: true,
     });
-    cy.get(this.inputAge).type(Cypress.env("STEP2_AGE"));
+    cy.get(this.inputAge.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_AGE"));
    
-    cy.get(this.selectCountry).select(Cypress.env("STEP2_COUNTRY"), {
+    cy.get(this.selectCountry.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP2_COUNTRY"), {
       force: true,
     });
-    cy.get(this.inputCity).type(Cypress.env("STEP2_CITY"));
-    cy.get(this.selectIndianCitizen).select(Cypress.env("STEP2_INDIAN_CITIZEN"), {
+    cy.get(this.inputCity.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_CITY"));
+    cy.get(this.selectIndianCitizen.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP2_INDIAN_CITIZEN"), {
       force: true,
     });
     
-    cy.get(this.selectYSS_SRFMember).select(Cypress.env("STEP2_YSS_SRFMEMBER"), {
+    cy.get(this.selectYSS_SRFMember.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP2_YSS_SRFMEMBER"), {
       force: true,
     });
-    cy.get(this.inputLesson).type(Cypress.env("STEP2_LESSON"));
-    cy.get(this.selectKriyaban).select(Cypress.env("STEP2_KRIYABAN"), {
+    cy.get(this.inputLesson.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_LESSON"));
+    cy.get(this.selectKriyaban.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP2_KRIYABAN"), {
       force: true,
     });
 
     //Set checkbox value on Form
     const agreeTC = Cypress.env("STEP2_AGREE_TC");
     if (agreeTC === true) {
-      cy.get(this.checkbox_agreeTC).check()
+      cy.get(this.checkbox_agreeTC.replace('_<FORM_ID>',formId)).check()
     }
 
     captureSreenshot(2000);
