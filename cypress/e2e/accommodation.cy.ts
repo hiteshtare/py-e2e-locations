@@ -78,7 +78,7 @@ describe("Ranchi - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
 
       //Click on Submit button to submit Form
-      // cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
+      // cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
 
       // checkIfElementIsVisible(accommodationPages.divValidation.replace('_<FORM_ID>',parentFormId));
       //Step 2 - Form fields
@@ -148,7 +148,7 @@ describe("Ranchi - Accommodation page", () => {
 
       //Step 2 - Form fields
       //Click on Submit button to submit Form
-      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
+      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
 
       checkIfElementIsVisible(accommodationPages.divValidation.replace('_<FORM_ID>',parentFormId));
       //Step 2 - Form fields
@@ -166,7 +166,7 @@ describe("Ranchi - Accommodation page", () => {
       accommodationPages.populateStep2_fields(parentFormId);;
 
       //Click on Submit button to submit Form
-      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
+      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
       //Step 2 - Form fields
 
       //Capture sc after submit to capture Notification
@@ -196,7 +196,7 @@ describe("Ranchi - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
 
       //Click on Submit button to submit Form
-      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
+      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
       //Step 2 - Form fields
 
       //Capture sc after submit to capture Notification
@@ -234,7 +234,7 @@ describe("Ranchi - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
       
       //Click on Submit button to submit Form
-      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
+      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
       //Step 2 - Form fields
 
       //Capture sc after submit to capture Notification
@@ -280,7 +280,7 @@ describe("Ranchi - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
       
       //Click on Submit button to submit Form
-      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
+      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
       //Step 2 - Form fields
 
       //Capture sc after submit to capture Notification
@@ -406,7 +406,7 @@ describe("Dakshineswar - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
 
       //Click on Submit button to submit Form
-      // cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
+      // cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
 
       // checkIfElementIsVisible(accommodationPages.divValidation.replace('_<FORM_ID>',parentFormId));
       //Step 2 - Form fields
@@ -476,7 +476,7 @@ describe("Dakshineswar - Accommodation page", () => {
 
       //Step 2 - Form fields
       //Click on Submit button to submit Form
-      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
+      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
 
       checkIfElementIsVisible(accommodationPages.divValidation.replace('_<FORM_ID>',parentFormId));
       //Step 2 - Form fields
@@ -562,7 +562,7 @@ describe("Dakshineswar - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
       
       //Click on Submit button to submit Form
-      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
+      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
       //Step 2 - Form fields
 
       //Capture sc after submit to capture Notification
@@ -608,7 +608,7 @@ describe("Dakshineswar - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
       
       //Click on Submit button to submit Form
-      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
+      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
       //Step 2 - Form fields
 
       //Capture sc after submit to capture Notification
