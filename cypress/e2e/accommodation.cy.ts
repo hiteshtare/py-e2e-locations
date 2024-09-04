@@ -12,19 +12,19 @@ describe("Ranchi - Accommodation page", () => {
 
   const parentFormId = accommodationPages.mappingPlaceFormId.ranchi;
 
-  describe("STEP-1", () => {
-    it("STEP-1: Form Title should contain  'Accommodation'", () => {
+  describe("Ranchi - STEP-1", () => {
+    it("Ranchi - STEP-1: Form Title should contain  'Accommodation'", () => {
       cy.get(accommodationPages.divTitle).contains("Accommodation");
     });
 
-    it("STEP-1: Form should fire validation, if input fields are empty", () => {
+    it("Ranchi - STEP-1: Form should fire validation, if input fields are empty", () => {
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
 
       checkIfElementIsVisible(accommodationPages.divValidation.replace('_<FORM_ID>',parentFormId));
     });
 
-    it("STEP-1: Form should submit after all input fields are filled", () => {
+    it("Ranchi - STEP-1: Form should submit after all input fields are filled", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -33,8 +33,8 @@ describe("Ranchi - Accommodation page", () => {
     });
   });
 
-  describe("STEP-2", () => {
-    it("STEP-2: Member Modal should fire validation, if input fields are empty", () => {
+  describe("Ranchi - STEP-2", () => {
+    it("Ranchi - STEP-2: Member Modal should fire validation, if input fields are empty", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -55,7 +55,7 @@ describe("Ranchi - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
     });
 
-    it("STEP-2: Form should Not Add member", () => {
+    it("Ranchi - STEP-2: Form should Not Add member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -84,7 +84,7 @@ describe("Ranchi - Accommodation page", () => {
       //Step 2 - Form fields
     });
 
-    it("STEP-2: Form should Add 1 member", () => {
+    it("Ranchi - STEP-2: Form should Add 1 member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -107,7 +107,7 @@ describe("Ranchi - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
     });
 
-    it("STEP-2: Form should Add 2 members", () => {
+    it("Ranchi - STEP-2: Form should Add 2 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -138,7 +138,7 @@ describe("Ranchi - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
     });
 
-    it("STEP-2: Form should fire validation, if input fields are empty", () => {
+    it("Ranchi - STEP-2: Form should fire validation, if input fields are empty", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -154,7 +154,7 @@ describe("Ranchi - Accommodation page", () => {
       //Step 2 - Form fields
     });
 
-    it("STEP-2: Form should submit without member", () => {
+    it("Ranchi - STEP-2: Form should submit without member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -173,7 +173,7 @@ describe("Ranchi - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it("STEP-2: Form should submit with 1 member", () => {
+    it("Ranchi - STEP-2: Form should submit with 1 member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -203,7 +203,7 @@ describe("Ranchi - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it("STEP-2: Form should submit with 2 members", () => {
+    it("Ranchi - STEP-2: Form should submit with 2 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -241,7 +241,7 @@ describe("Ranchi - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it("STEP-2: Form should submit with 3 members", () => {
+    it("Ranchi - STEP-2: Form should submit with 3 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -287,7 +287,7 @@ describe("Ranchi - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it("STEP-2: Form should fire validation (Max Entries) more than 3 members", () => {
+    it("Ranchi - STEP-2: Form should fire validation (Max Entries) more than 3 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
@@ -340,19 +340,19 @@ describe("Dakshineswar - Accommodation page", () => {
 
   const parentFormId = accommodationPages.mappingPlaceFormId.dakshineswar;
 
-  describe("STEP-1", () => {
-    it("STEP-1: Form Title should contain  'Accommodation'", () => {
+  describe("Dakshineswar - STEP-1", () => {
+    it("Dakshineswar - STEP-1: Form Title should contain  'Accommodation'", () => {
       cy.get(accommodationPages.divTitle).contains("Accommodation");
     });
 
-    it("STEP-1: Form should fire validation, if input fields are empty", () => {
+    it("Dakshineswar - STEP-1: Form should fire validation, if input fields are empty", () => {
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
 
       checkIfElementIsVisible(accommodationPages.divValidation.replace('_<FORM_ID>',parentFormId));
     });
 
-    it("STEP-1: Form should submit after all input fields are filled", () => {
+    it("Dakshineswar - STEP-1: Form should submit after all input fields are filled", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -361,8 +361,8 @@ describe("Dakshineswar - Accommodation page", () => {
     });
   });
 
-  describe("STEP-2", () => {
-    it("STEP-2: Member Modal should fire validation, if input fields are empty", () => {
+  describe("Dakshineswar - STEP-2", () => {
+    it("Dakshineswar - STEP-2: Member Modal should fire validation, if input fields are empty", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -383,7 +383,7 @@ describe("Dakshineswar - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
     });
 
-    it("STEP-2: Form should Not Add member", () => {
+    it("Dakshineswar - STEP-2: Form should Not Add member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -412,7 +412,7 @@ describe("Dakshineswar - Accommodation page", () => {
       //Step 2 - Form fields
     });
 
-    it("STEP-2: Form should Add 1 member", () => {
+    it("Dakshineswar - STEP-2: Form should Add 1 member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -435,7 +435,7 @@ describe("Dakshineswar - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
     });
 
-    it("STEP-2: Form should Add 2 members", () => {
+    it("Dakshineswar - STEP-2: Form should Add 2 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -466,7 +466,7 @@ describe("Dakshineswar - Accommodation page", () => {
       /* --------------------- Add Member --------------------- */
     });
 
-    it("STEP-2: Form should fire validation, if input fields are empty", () => {
+    it("Dakshineswar - STEP-2: Form should fire validation, if input fields are empty", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -482,7 +482,7 @@ describe("Dakshineswar - Accommodation page", () => {
       //Step 2 - Form fields
     });
 
-    it("STEP-2: Form should submit without member", () => {
+    it("Dakshineswar - STEP-2: Form should submit without member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -501,7 +501,7 @@ describe("Dakshineswar - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it("STEP-2: Form should submit with 1 member", () => {
+    it("Dakshineswar - STEP-2: Form should submit with 1 member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -531,7 +531,7 @@ describe("Dakshineswar - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it("STEP-2: Form should submit with 2 members", () => {
+    it("Dakshineswar - STEP-2: Form should submit with 2 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -569,7 +569,7 @@ describe("Dakshineswar - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it("STEP-2: Form should submit with 3 members", () => {
+    it("Dakshineswar - STEP-2: Form should submit with 3 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -615,7 +615,7 @@ describe("Dakshineswar - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it("STEP-2: Form should fire validation (Max Entries) more than 3 members", () => {
+    it("Dakshineswar - STEP-2: Form should fire validation (Max Entries) more than 3 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
