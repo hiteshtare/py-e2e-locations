@@ -26,7 +26,7 @@ describe("Ranchi - Accommodation page", () => {
 
     it("STEP-1: Form should submit after all input fields are filled", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
@@ -36,14 +36,14 @@ describe("Ranchi - Accommodation page", () => {
   describe("STEP-2", () => {
     it("STEP-2: Member Modal should fire validation, if input fields are empty", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
       //Step 1 - Form fields
 
       //Populate Step 2 - Form fields
-      // accommodationPages.populateStep2_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      // accommodationPages.populateStep2_fields(parentFormId);;
 
       /* --------------------- Add Member --------------------- */
       cy.get(accommodationPages.btnAddMember).click();
@@ -57,14 +57,14 @@ describe("Ranchi - Accommodation page", () => {
 
     it("STEP-2: Form should Not Add member", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
       //Step 1 - Form fields
 
       //Populate Step 2 - Form fields
-      // accommodationPages.populateStep2_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      // accommodationPages.populateStep2_fields(parentFormId);;
 
       /* --------------------- Add Member --------------------- */
       cy.get(accommodationPages.btnAddMember).click();
@@ -86,14 +86,14 @@ describe("Ranchi - Accommodation page", () => {
 
     it("STEP-2: Form should Add 1 member", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
       //Step 1 - Form fields
 
       //Populate Step 2 - Form fields
-      // accommodationPages.populateStep2_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      // accommodationPages.populateStep2_fields(parentFormId);;
 
       /* --------------------- Add Member --------------------- */
       cy.get(accommodationPages.btnAddMember).click();
@@ -109,14 +109,14 @@ describe("Ranchi - Accommodation page", () => {
 
     it("STEP-2: Form should Add 2 members", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
       //Step 1 - Form fields
 
       //Populate Step 2 - Form fields
-      // accommodationPages.populateStep2_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      // accommodationPages.populateStep2_fields(parentFormId);;
 
       /* --------------------- Add Member --------------------- */
       cy.get(accommodationPages.btnAddMember).click();
@@ -140,7 +140,7 @@ describe("Ranchi - Accommodation page", () => {
 
     it("STEP-2: Form should fire validation, if input fields are empty", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
@@ -156,14 +156,14 @@ describe("Ranchi - Accommodation page", () => {
 
     it("STEP-2: Form should submit without member", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
       //Step 1 - Form fields
 
       //Populate Step 2 - Form fields
-      accommodationPages.populateStep2_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep2_fields(parentFormId);;
 
       //Click on Submit button to submit Form
       cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click
@@ -175,14 +175,14 @@ describe("Ranchi - Accommodation page", () => {
 
     it("STEP-2: Form should submit with 1 member", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
       //Step 1 - Form fields
 
       //Populate Step 2 - Form fields
-      accommodationPages.populateStep2_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep2_fields(parentFormId);;
 
       /* --------------------- Add Member --------------------- */
       cy.get(accommodationPages.btnAddMember).click();
@@ -205,14 +205,14 @@ describe("Ranchi - Accommodation page", () => {
 
     it("STEP-2: Form should submit with 2 members", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
       //Step 1 - Form fields
 
       //Populate Step 2 - Form fields
-      accommodationPages.populateStep2_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep2_fields(parentFormId);;
 
       /* --------------------- Add Member --------------------- */
       cy.get(accommodationPages.btnAddMember).click();
@@ -243,14 +243,14 @@ describe("Ranchi - Accommodation page", () => {
 
     it("STEP-2: Form should submit with 3 members", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
       //Step 1 - Form fields
 
       //Populate Step 2 - Form fields
-      accommodationPages.populateStep2_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep2_fields(parentFormId);;
 
       /* --------------------- Add Member --------------------- */
       cy.get(accommodationPages.btnAddMember).click();
@@ -289,14 +289,14 @@ describe("Ranchi - Accommodation page", () => {
 
     it("STEP-2: Form should fire validation (Max Entries) more than 3 members", () => {
       //Populate Step 1 - Form fields
-      accommodationPages.populateStep1_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep1_fields(parentFormId);;
 
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
       //Step 1 - Form fields
 
       //Populate Step 2 - Form fields
-      accommodationPages.populateStep2_fields(accommodationPages.mappingPlaceFormId.ranchi);
+      accommodationPages.populateStep2_fields(parentFormId);;
 
       /* --------------------- Add Member --------------------- */
       cy.get(accommodationPages.btnAddMember).click();
@@ -333,7 +333,7 @@ describe("Ranchi - Accommodation page", () => {
   });
 });
 
-describe.only("Dakshineswar - Accommodation page", () => {
+describe("Dakshineswar - Accommodation page", () => {
   beforeEach(() => {
     cy.visit("/dakshineswar-accommodation");
   });
@@ -345,7 +345,7 @@ describe.only("Dakshineswar - Accommodation page", () => {
       cy.get(accommodationPages.divTitle).contains("Accommodation");
     });
 
-    it.only("STEP-1: Form should fire validation, if input fields are empty", () => {
+    it("STEP-1: Form should fire validation, if input fields are empty", () => {
       //Click on Next button to submit Form
       cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
 
@@ -362,7 +362,7 @@ describe.only("Dakshineswar - Accommodation page", () => {
   });
 
   describe("STEP-2", () => {
-    it.only("STEP-2: Member Modal should fire validation, if input fields are empty", () => {
+    it("STEP-2: Member Modal should fire validation, if input fields are empty", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -531,7 +531,7 @@ describe.only("Dakshineswar - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it.only("STEP-2: Form should submit with 2 members", () => {
+    it("STEP-2: Form should submit with 2 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
@@ -569,7 +569,7 @@ describe.only("Dakshineswar - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it.only("STEP-2: Form should submit with 3 members", () => {
+    it("STEP-2: Form should submit with 3 members", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);
 
