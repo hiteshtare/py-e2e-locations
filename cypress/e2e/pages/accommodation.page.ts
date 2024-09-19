@@ -55,19 +55,19 @@ export class AccommodationPages {
   /* --------------------- Add Member --------------------- */
   btnAddMember = '.gpnf-add-entry';
   
-  modal_selectSalutation = '#input_52_1';
-  modal_inputFirstName = '#input_52_1';
-  modal_inputLastName = '#input_52_1';
-  modal_selectGender = '#input_52_6';
-  modal_inputAge = '#input_52_5';
-  modal_selectRelationship = '#input_52_3';
-  modal_selectYSS_SRFMember = '#input_52_7';
-  modal_inputLesson = '#input_52_8';
+  modal_selectSalutation = '#input_58_12';
+  modal_inputFirstName = '#input_58_1';
+  modal_inputLastName = '#input_58_13';
+  modal_selectGender = '#input_58_6';
+  modal_inputAge = '#input_58_5';
+  modal_selectRelationship = '#input_58_3';
+  modal_selectYSS_SRFMember = '#input_58_7';
+  modal_inputLesson = '#input_58_8';
 
   btnCancel = '.gpnf-btn-cancel';
   btnAdd = '.gpnf-btn-submit';
   
-  modal_divValidation = '#gform_52_validation_container';
+  modal_divValidation = '#gform_58_validation_container';
   divAddEntryMax = '.gpnf-add-entry-max';
 
   /* --------------------- Add Member --------------------- */
@@ -147,7 +147,7 @@ export class AccommodationPages {
 
   populateModal_fields() {
     //Set Dropdown value on Form
-    cy.get(this.modal_selectGender).select(Cypress.env("MEMBER1_SALUTATION"), {
+    cy.get(this.modal_selectSalutation).select(Cypress.env("MEMBER1_SALUTATION"), {
       force: true,
     });
     cy.get(this.modal_inputFirstName).type(Cypress.env("MEMBER1_FIRST_NAME"));
