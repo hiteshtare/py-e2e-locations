@@ -170,7 +170,7 @@ export class AccommodationPages {
 
   populateModal_fields_2() {
     //Set Dropdown value on Form
-    cy.get(this.modal_selectGender).select(Cypress.env("MEMBER2_SALUTATION"), {
+    cy.get(this.modal_selectSalutation).select(Cypress.env("MEMBER2_SALUTATION"), {
       force: true,
     });
     cy.get(this.modal_inputFirstName).type(Cypress.env("MEMBER2_FIRST_NAME"));
@@ -193,7 +193,7 @@ export class AccommodationPages {
 
   populateModal_fields_3() {
     //Set Dropdown value on Form
-    cy.get(this.modal_selectGender).select(Cypress.env("MEMBER3_SALUTATION"), {
+    cy.get(this.modal_selectSalutation).select(Cypress.env("MEMBER3_SALUTATION"), {
       force: true,
     });
     cy.get(this.modal_inputFirstName).type(Cypress.env("MEMBER3_FIRST_NAME"));
