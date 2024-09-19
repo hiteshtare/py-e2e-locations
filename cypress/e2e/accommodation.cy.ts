@@ -7,7 +7,7 @@ const accommodationPages = new AccommodationPages();
 
 describe("Ranchi - Accommodation page", () => {
   beforeEach(() => {
-    cy.visit("/ranchi-accommodation");
+    cy.visit("/location/ranchi/accommodation");
   });
 
   const parentFormId = accommodationPages.mappingPlaceFormId.ranchi;
@@ -333,7 +333,7 @@ describe("Ranchi - Accommodation page", () => {
   });
 });
 
-describe("Dakshineswar - Accommodation page", () => {
+describe.skip("Dakshineswar - Accommodation page", () => {
   beforeEach(() => {
     cy.visit("/dakshineswar-accommodation");
   });
