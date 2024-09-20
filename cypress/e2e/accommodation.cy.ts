@@ -333,9 +333,9 @@ describe("Ranchi - Accommodation page", () => {
   });
 });
 
-describe.skip("Dakshineswar - Accommodation page", () => {
+describe("Dakshineswar - Accommodation page", () => {
   beforeEach(() => {
-    cy.visit("/dakshineswar-accommodation");
+    cy.visit("/location/dakshineswar/accommodation/");
   });
 
   const parentFormId = accommodationPages.mappingPlaceFormId.dakshineswar;

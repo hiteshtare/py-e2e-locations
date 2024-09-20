@@ -10,8 +10,9 @@ export class AccommodationPages {
 
   mappingPlaceFormId = {
     ranchi: '_55',
-    dakshineswar: '_53'
+    dakshineswar: '_56'
   };
+  childFormId = '_58';
 
   //Step 1 - Form fields
   inputArrivalDate = '#input_<FORM_ID>_9';
@@ -55,14 +56,14 @@ export class AccommodationPages {
   /* --------------------- Add Member --------------------- */
   btnAddMember = '.gpnf-add-entry';
   
-  modal_selectSalutation = '#input_58_12';
-  modal_inputFirstName = '#input_58_1';
-  modal_inputLastName = '#input_58_13';
-  modal_selectGender = '#input_58_6';
-  modal_inputAge = '#input_58_5';
-  modal_selectRelationship = '#input_58_3';
-  modal_selectYSS_SRFMember = '#input_58_7';
-  modal_inputLesson = '#input_58_8';
+  modal_selectSalutation = `#input${this.childFormId}_12`;
+  modal_inputFirstName = `#input${this.childFormId}_1`;
+  modal_inputLastName = `#input${this.childFormId}_13`;
+  modal_selectGender = `#input${this.childFormId}_6`;
+  modal_inputAge = `#input${this.childFormId}_5`;
+  modal_selectRelationship = `#input${this.childFormId}_3`;
+  modal_selectYSS_SRFMember = `#input${this.childFormId}_7`;
+  modal_inputLesson = `#input${this.childFormId}_8`;
 
   btnCancel = '.gpnf-btn-cancel';
   btnAdd = '.gpnf-btn-submit';
@@ -128,7 +129,7 @@ export class AccommodationPages {
     cy.get(this.inputLine1.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_LINE1"));
     cy.get(this.inputLine2.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_LINE2"));
     cy.get(this.inputCity.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_CITY"));
-    cy.get(this.inputPincode.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_CITY"));
+    cy.get(this.inputPincode.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_PINCODE"));
     cy.get(this.selectDistrict.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_DISTRICT"), {
       force: true,
     });
