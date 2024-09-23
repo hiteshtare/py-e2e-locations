@@ -1,6 +1,7 @@
 import { defineConfig } from "cypress";
-import allureWriter from '@shelex/cypress-allure-plugin/writer';
-import fs from 'fs';
+import allureWriter from "@shelex/cypress-allure-plugin/writer";
+import fs from "fs";
+const { downloadFile } = require("cypress-downloadfile/lib/addPlugin");
 
 export default defineConfig({
   e2e: {
@@ -13,13 +14,15 @@ export default defineConfig({
     // Resize the viewport to 1280px x 768px
     viewportWidth: 1280,
     viewportHeight: 768,
-    baseUrl: 'https://test.yssofindia.org/',
-    numTestsKeptInMemory:0,
+    baseUrl: "https://test.yssofindia.org/",
+    numTestsKeptInMemory: 0,
     setupNodeEvents(on, config) {
+      on('task', { downloadFile });
+      
       // implement node event listeners here
-      const environmentName = config.env.environmentName || 'staging';
+      const environmentName = config.env.environmentName || "staging";
       const environmentFilename = `./env/${environmentName}.settings.json`;
-      console.warn('loading %s', environmentFilename);
+      console.warn("loading %s", environmentFilename);
       const settings = require(environmentFilename);
       if (settings.baseUrl) {
         config.baseUrl = settings.baseUrl;
@@ -30,17 +33,17 @@ export default defineConfig({
           ...settings.env,
         };
       }
-      console.log('loaded settings for environment %s', environmentName)
-    
+      console.log("loaded settings for environment %s", environmentName);
+
       // IMPORTANT: return the updated config object
       // for Cypress to use it
       allureWriter(on, config);
-      on('after:run', (results:any) => {
-        const data = `Environment=${environmentName}\nBaseURL=${settings.baseUrl}\n`
-        fs.writeFile('allure-results/environment.properties', data, (err) => {
+      on("after:run", (results: any) => {
+        const data = `Environment=${environmentName}\nBaseURL=${settings.baseUrl}\n`;
+        fs.writeFile("allure-results/environment.properties", data, (err) => {
           if (err) throw err;
         });
-      })
+      });
       // require('cypress-mochawesome-reporter/plugin')(on);
       return config;
     },
