@@ -2,6 +2,23 @@
 import { getElementLink } from "./util/common.util";
 
 describe.only("Backend - Plugins page", () => {
+
+  it.skip("Download plugin files from Test site", () => {
+    const loginUrl = "https://test.yssofindia.org/wp-login.php?wle=NDYwOTQ0MzJjYmNmMjY4ZjdjOTg3ZjU3YmQ1NGQ5MmRkN2U5OTY5Y2I3MGJiMDQ0";
+    const username = "Hiteshtare";
+    const password = "dUliu(#zeuTgJ9gs&^hcz)r5";
+    
+    cy.visit(loginUrl);
+
+    cy.wait(1000).get('#user_login').type(username);
+    cy.wait(1000).get('#user_pass').type(password);
+    cy.wait(1000).get('#wp-submit').click();
+
+    cy.wait(1000).get('#user_login').type(username);
+    cy.wait(1000).get('#user_pass').type(password);
+    cy.wait(1000).get('#wp-submit').click();
+  });
+
   it("Download multiple files from file-examples.com", () => {
     cy.visit(
       "https://file-examples.com/index.php/sample-documents-download/sample-doc-download/"
