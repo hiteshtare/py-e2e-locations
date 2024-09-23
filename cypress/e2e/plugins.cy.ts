@@ -2,13 +2,11 @@
 import { getElementLink } from "./util/common.util";
 
 describe.only("Backend - Plugins page", () => {
-  beforeEach(() => {
+  it("Download multiple files from file-examples.com", () => {
     cy.visit(
       "https://file-examples.com/index.php/sample-documents-download/sample-doc-download/"
     );
-  });
 
-  it("download file in mentioned dir", () => {
     const downloadPath: string = "cypress/downloads";
 
     cy.get("tbody > tr > td.file-link").each(($event, index) => {
