@@ -5,9 +5,9 @@ import { AccommodationPages } from "./pages/accommodation.page";
 
 const accommodationPages = new AccommodationPages();
 
-describe("Ranchi - Accommodation page", () => {
+describe.only("Chennai - Accommodation page", () => {
   beforeEach(() => {
-    cy.visit("/location/ranchi/accommodation");
+    cy.visit("/location/chennai/accommodation");
   });
 
   const parentFormId = accommodationPages.mappingPlaceFormId.ranchi;
@@ -33,7 +33,7 @@ describe("Ranchi - Accommodation page", () => {
     });
   });
 
-  describe("Ranchi - STEP-2", () => {
+  describe.only("Ranchi - STEP-2", () => {
     it("Ranchi - STEP-2: Member Modal should fire validation, if input fields are empty", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
@@ -173,7 +173,7 @@ describe("Ranchi - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it("Ranchi - STEP-2: Form should submit with 1 member", () => {
+    it.only("Ranchi - STEP-2: Form should submit with 1 member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
