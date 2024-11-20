@@ -150,7 +150,7 @@ export class AccommodationPages {
     captureSreenshot(2000);
   }
 
-  populateModal_fields() {
+  populateModal_fields(isNonMember: boolean) {
     //Set Dropdown value on Form
     cy.get(this.modal_selectSalutation).select(Cypress.env("MEMBER1_SALUTATION"), {
       force: true,
@@ -165,10 +165,17 @@ export class AccommodationPages {
     cy.get(this.modal_selectRelationship).select(Cypress.env("MEMBER1_RELATIONSHIP"), {
       force: true,
     });
-    cy.get(this.modal_selectYSS_SRFMember).select(Cypress.env("MEMBER1_YSS_SRFMEMBER"), {
-      force: true,
-    });
-    cy.get(this.modal_inputLesson).type(Cypress.env("MEMBER1_LESSON"));
+    if (isNonMember) {
+      cy.get(this.modal_selectYSS_SRFMember).select(Cypress.env("MEMBER_IS_NON_MEMBER"), {
+        force: true,
+      });
+    }
+    else { 
+      cy.get(this.modal_selectYSS_SRFMember).select(Cypress.env("MEMBER1_YSS_SRFMEMBER"), {
+        force: true,
+      });
+      cy.get(this.modal_inputLesson).type(Cypress.env("MEMBER1_LESSON"));
+    }
 
     captureSreenshot();
   }

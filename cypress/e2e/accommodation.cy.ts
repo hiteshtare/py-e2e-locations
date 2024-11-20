@@ -173,7 +173,38 @@ describe.only("Chennai - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it.only("Ranchi - STEP-2: Form should submit with 1 member", () => {
+    it.only("Ranchi - STEP-2: Form should submit with 1 NON-member", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields(parentFormId);;
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 1 - Form fields
+
+      //Populate Step 2 - Form fields
+      accommodationPages.populateStep2_fields(parentFormId);;
+
+      /* --------------------- Add Member --------------------- */
+      cy.get(accommodationPages.btnAddMember).click();
+
+      const isNonMember = true;
+      accommodationPages.populateModal_fields(isNonMember);
+
+      //Click on Add button to add new Member
+      cy.get(accommodationPages.btnAdd.replace('_<FORM_ID>',parentFormId)).click();
+
+      captureSreenshot(2000);
+      /* --------------------- Add Member --------------------- */
+
+      //Click on Submit button to submit Form
+      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 2 - Form fields
+
+      //Capture sc after submit to capture Notification
+      captureSreenshot(2000);
+    });
+
+    it("Ranchi - STEP-2: Form should submit with 1 member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 
