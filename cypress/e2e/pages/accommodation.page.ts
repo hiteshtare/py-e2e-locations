@@ -9,10 +9,10 @@ export class AccommodationPages {
   divTitle = '.elementor-heading-title';
 
   mappingPlaceFormId = {
-    ranchi: '_55',
+    ranchi: '_54',
     dakshineswar: '_56'
   };
-  childFormId = '_58';
+  childFormId = '_53';
 
   //Step 1 - Form fields
   inputArrivalDate = '#input_<FORM_ID>_9';
@@ -75,8 +75,12 @@ export class AccommodationPages {
   //Step 2 - Form fields
 
   populateStep1_fields(formId:string) { 
-    cy.get(this.inputArrivalDate.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_ARRIVAL_DATE"));
-    cy.get(this.inputDepartureDate.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_DEPARTURE_DATE"));
+    cy.get(this.inputArrivalDate.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_ARRIVAL_DATE"), {
+      force: true,
+    });
+    cy.get(this.inputDepartureDate.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_DEPARTURE_DATE"), {
+      force: true,
+    });
     //Set Dropdown value on Form
     cy.get(this.selectArrivalTime.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP1_ARRIVAL_TIME"), {
       force: true,
@@ -84,9 +88,9 @@ export class AccommodationPages {
     cy.get(this.selectDepartureTime.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP1_DEPARTURE_TIME"), {
       force: true,
     });
-    cy.get(this.selectPurposeofVisit.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP1_PURPOSE_VISIT"), {
-      force: true,
-    });
+    // cy.get(this.selectPurposeofVisit.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP1_PURPOSE_VISIT"), {
+    //   force: true,
+    // });
     cy.get(this.inputAdditionalInformation.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_ADDITION_INFO"));
 
     //Set checkbox value on Form
@@ -126,16 +130,16 @@ export class AccommodationPages {
       force: true,
     });
 
+    cy.get(this.selectCountry.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_COUNTRY"), {
+      force: true,
+    });
     cy.get(this.inputLine1.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_LINE1"));
     cy.get(this.inputLine2.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_LINE2"));
     cy.get(this.inputCity.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_CITY"));
     cy.get(this.inputPincode.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_PINCODE"));
-    cy.get(this.selectDistrict.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_DISTRICT"), {
-      force: true,
-    });
-    cy.get(this.selectCountry.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_COUNTRY"), {
-      force: true,
-    });
+    // cy.get(this.selectDistrict.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_DISTRICT"), {
+    //   force: true,
+    // });
 
     //Set checkbox value on Form
     const agreeTC = Cypress.env("STEP2_AGREE_TC");
