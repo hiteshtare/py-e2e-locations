@@ -97,7 +97,9 @@ export class AccommodationPages {
     //Set checkbox value on Form
     const isAccommodationShared = Cypress.env("STEP1_IS_ACCOMMODATION_SHARED");
     if (isAccommodationShared === true) {
-      cy.get(this.checkbox_AccommodationShared.replace('_<FORM_ID>',formId)).check()
+      cy.get(this.checkbox_AccommodationShared.replace('_<FORM_ID>',formId)).check({
+        force: true,
+      })
     }
 
     captureSreenshot();

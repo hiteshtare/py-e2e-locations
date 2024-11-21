@@ -204,6 +204,25 @@ describe.only("Bangalore - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
+    it.only("Bangalore - STEP-2: Form should submit with SHARED Occupancy", () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields(parentFormId);;
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 1 - Form fields
+
+      //Populate Step 2 - Form fields
+      accommodationPages.populateStep2_fields(parentFormId);
+
+      //Click on Submit button to submit Form
+      cy.get(accommodationPages.btnSubmit.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 2 - Form fields
+
+      //Capture sc after submit to capture Notification
+      captureSreenshot(2000);
+    });
+
     it("Bangalore - STEP-2: Form should submit with 1 member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
