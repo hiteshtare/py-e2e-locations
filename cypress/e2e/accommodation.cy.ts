@@ -11,6 +11,7 @@ describe.only("Bangalore - Accommodation page", () => {
   });
 
   const parentFormId = accommodationPages.mappingPlaceFormId.ranchi;
+  let validationMessage = '';
 
   describe("Bangalore - STEP-1", () => {
     it("Bangalore - STEP-1: Form Title should contain  'Accommodation'", () => {
@@ -154,8 +155,8 @@ describe.only("Bangalore - Accommodation page", () => {
       //Step 2 - Form fields
     });
 
-    let validationMessage = 'Arrival date should be more than Arrival cutoff date.';
-    it.only(`Bangalore - STEP-2: Form should show validation ${validationMessage}`, () => {
+    validationMessage = 'Arrival date should be more than Arrival cutoff date.';
+    it(`Bangalore - STEP-2: Form should show validation ${validationMessage} for Arrival date`, () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId,'21/11/2024');
 
@@ -167,6 +168,35 @@ describe.only("Bangalore - Accommodation page", () => {
       checkIfElementIsVisible(divId);
       cy.get(divId).contains(`${validationMessage}`);
     });
+
+    validationMessage = 'Arrival date should be less than Booking Horizon date.';
+    it(`Bangalore - STEP-2: Form should show validation ${validationMessage} for Arrival date`, () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields(parentFormId,'21/11/2025');
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 1 - Form fields
+
+      const divId = accommodationPages.inputArrivalDateValidation.replace('_<FORM_ID>', parentFormId);
+      checkIfElementIsVisible(divId);
+      cy.get(divId).contains(`${validationMessage}`);
+    });
+
+    validationMessage = 'Please enter a valid Arrival date.';
+    it(`Bangalore - STEP-2: Form should show validation ${validationMessage} for Arrival date`, () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields(parentFormId,'08/12/2024');
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 1 - Form fields
+
+      const divId = accommodationPages.inputArrivalDateValidation.replace('_<FORM_ID>', parentFormId);
+      checkIfElementIsVisible(divId);
+      cy.get(divId).contains(`${validationMessage}`);
+    });
+
 
     it("Bangalore - STEP-2: Form should submit without member", () => {
       //Populate Step 1 - Form fields
