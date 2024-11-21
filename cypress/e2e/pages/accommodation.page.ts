@@ -18,6 +18,7 @@ export class AccommodationPages {
   inputArrivalDate = '#input_<FORM_ID>_9';
   inputArrivalDateValidation = '#validation_message_<FORM_ID>_9';
   inputDepartureDate = '#input_<FORM_ID>_12';
+  inputDepartureDateValidation = '#validation_message_<FORM_ID>_12';
   selectArrivalTime = '#input_<FORM_ID>_58';
   selectDepartureTime = '#input_<FORM_ID>_60';
   selectPurposeofVisit = '#input_<FORM_ID>_15';

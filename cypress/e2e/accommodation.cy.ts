@@ -11,7 +11,7 @@ describe.only("Bangalore - Accommodation page", () => {
   });
 
   const parentFormId = accommodationPages.mappingPlaceFormId.ranchi;
-  let validationMessage = '';
+  const maxStayDuration = 10;
 
   describe("Bangalore - STEP-1", () => {
     it("Bangalore - STEP-1: Form Title should contain  'Accommodation'", () => {
@@ -155,8 +155,8 @@ describe.only("Bangalore - Accommodation page", () => {
       //Step 2 - Form fields
     });
 
-    validationMessage = 'Arrival date should be more than Arrival cutoff date.';
-    it(`Bangalore - STEP-2: Form should show validation ${validationMessage} for Arrival date`, () => {
+    const validationMessage1 = 'Arrival date should be more than Arrival cutoff date.';
+    it(`Bangalore - STEP-2: Form should show validation ${validationMessage1} for Arrival date`, () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId,'21/11/2024');
 
@@ -166,11 +166,11 @@ describe.only("Bangalore - Accommodation page", () => {
 
       const divId = accommodationPages.inputArrivalDateValidation.replace('_<FORM_ID>', parentFormId);
       checkIfElementIsVisible(divId);
-      cy.get(divId).contains(`${validationMessage}`);
+      cy.get(divId).contains(`${validationMessage1}`);
     });
 
-    validationMessage = 'Arrival date should be less than Booking Horizon date.';
-    it(`Bangalore - STEP-2: Form should show validation ${validationMessage} for Arrival date`, () => {
+    const validationMessage2 = 'Arrival date should be less than Booking Horizon date.';
+    it(`Bangalore - STEP-2: Form should show validation ${validationMessage2} for Arrival date`, () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId,'21/11/2025');
 
@@ -180,11 +180,11 @@ describe.only("Bangalore - Accommodation page", () => {
 
       const divId = accommodationPages.inputArrivalDateValidation.replace('_<FORM_ID>', parentFormId);
       checkIfElementIsVisible(divId);
-      cy.get(divId).contains(`${validationMessage}`);
+      cy.get(divId).contains(`${validationMessage2}`);
     });
 
-    validationMessage = 'Please enter a valid Arrival date.';
-    it(`Bangalore - STEP-2: Form should show validation ${validationMessage} for Arrival date`, () => {
+    const validationMessage3 = 'Please enter a valid Arrival date.';
+    it(`Bangalore - STEP-2: Form should show validation ${validationMessage3} for Arrival date`, () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId,'08/12/2024');
 
@@ -194,9 +194,64 @@ describe.only("Bangalore - Accommodation page", () => {
 
       const divId = accommodationPages.inputArrivalDateValidation.replace('_<FORM_ID>', parentFormId);
       checkIfElementIsVisible(divId);
-      cy.get(divId).contains(`${validationMessage}`);
+      cy.get(divId).contains(`${validationMessage3}`);
     });
 
+    const validationMessage4 = 'Departure date should be less than Booking Horizon date.';
+    it(`Bangalore - STEP-2: Form should show validation ${validationMessage4} for Departure date`, () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields(parentFormId,'29/12/2024','21/11/2025');
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 1 - Form fields
+
+      const divId = accommodationPages.inputDepartureDateValidation.replace('_<FORM_ID>', parentFormId);
+      checkIfElementIsVisible(divId);
+      cy.get(divId).contains(validationMessage4);
+    });
+
+    const validationMessage5 = 'Please enter a valid Departure date.';
+    it(`Bangalore - STEP-2: Form should show validation ${validationMessage5} for Departure date`, () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields(parentFormId,'29/12/2024','08/12/2024');
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 1 - Form fields
+
+      const divId = accommodationPages.inputDepartureDateValidation.replace('_<FORM_ID>', parentFormId);
+      checkIfElementIsVisible(divId);
+      cy.get(divId).contains(`${validationMessage5}`);
+    });
+
+    const validationMessage6 = 'Departure date should more than or equal to Arrival date.';
+    it(`Bangalore - STEP-2: Form should show validation ${validationMessage6} for Departure date`, () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields(parentFormId,'29/12/2024','28/12/2024');
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 1 - Form fields
+
+      const divId = accommodationPages.inputDepartureDateValidation.replace('_<FORM_ID>', parentFormId);
+      checkIfElementIsVisible(divId);
+      cy.get(divId).contains(`${validationMessage6}`);
+    });
+
+    const validationMessage7 = `Max stay duration allowed is ${maxStayDuration} days or less`;
+    it.only(`Bangalore - STEP-2: Form should show validation ${validationMessage7} for Departure date`, () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields(parentFormId,'29/12/2024','10/01/2025');
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 1 - Form fields
+
+      const divId = accommodationPages.inputDepartureDateValidation.replace('_<FORM_ID>', parentFormId);
+      checkIfElementIsVisible(divId);
+      cy.get(divId).contains(`${validationMessage7}`);
+    });
 
     it("Bangalore - STEP-2: Form should submit without member", () => {
       //Populate Step 1 - Form fields
