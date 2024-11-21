@@ -154,6 +154,20 @@ describe.only("Bangalore - Accommodation page", () => {
       //Step 2 - Form fields
     });
 
+    let validationMessage = 'Arrival date should be more than Arrival cutoff date.';
+    it.only(`Bangalore - STEP-2: Form should show validation ${validationMessage}`, () => {
+      //Populate Step 1 - Form fields
+      accommodationPages.populateStep1_fields(parentFormId,'21/11/2024');
+
+      //Click on Next button to submit Form
+      cy.get(accommodationPages.btnNext.replace('_<FORM_ID>',parentFormId)).click();
+      //Step 1 - Form fields
+
+      const divId = accommodationPages.inputArrivalDateValidation.replace('_<FORM_ID>', parentFormId);
+      checkIfElementIsVisible(divId);
+      cy.get(divId).contains(`${validationMessage}`);
+    });
+
     it("Bangalore - STEP-2: Form should submit without member", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
@@ -204,7 +218,7 @@ describe.only("Bangalore - Accommodation page", () => {
       captureSreenshot(2000);
     });
 
-    it.only("Bangalore - STEP-2: Form should submit with SHARED Occupancy", () => {
+    it("Bangalore - STEP-2: Form should submit with SHARED Occupancy", () => {
       //Populate Step 1 - Form fields
       accommodationPages.populateStep1_fields(parentFormId);;
 

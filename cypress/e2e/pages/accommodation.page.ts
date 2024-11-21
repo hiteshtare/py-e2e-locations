@@ -16,6 +16,7 @@ export class AccommodationPages {
 
   //Step 1 - Form fields
   inputArrivalDate = '#input_<FORM_ID>_9';
+  inputArrivalDateValidation = '#validation_message_<FORM_ID>_9';
   inputDepartureDate = '#input_<FORM_ID>_12';
   selectArrivalTime = '#input_<FORM_ID>_58';
   selectDepartureTime = '#input_<FORM_ID>_60';
@@ -75,13 +76,27 @@ export class AccommodationPages {
   /* --------------------- Add Member --------------------- */
   //Step 2 - Form fields
 
-  populateStep1_fields(formId:string) { 
-    cy.get(this.inputArrivalDate.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_ARRIVAL_DATE"), {
-      force: true,
-    });
-    cy.get(this.inputDepartureDate.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_DEPARTURE_DATE"), {
-      force: true,
-    });
+  populateStep1_fields(formId: string, arrivalDate?: string, departureDate?: string) { 
+    if (arrivalDate) {
+      cy.get(this.inputArrivalDate.replace('_<FORM_ID>',formId)).type(arrivalDate, {
+        force: true,
+      });
+    }
+    else { 
+      cy.get(this.inputArrivalDate.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_ARRIVAL_DATE"), {
+        force: true,
+      });
+    }
+    if (departureDate) {
+      cy.get(this.inputDepartureDate.replace('_<FORM_ID>',formId)).type(departureDate, {
+        force: true,
+      });
+    }
+    else { 
+      cy.get(this.inputDepartureDate.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP1_DEPARTURE_DATE"), {
+        force: true,
+      });
+    }
     //Set Dropdown value on Form
     cy.get(this.selectArrivalTime.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP1_ARRIVAL_TIME"), {
       force: true,
