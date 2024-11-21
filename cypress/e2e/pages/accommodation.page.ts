@@ -137,12 +137,15 @@ export class AccommodationPages {
     cy.get(this.selectCountryCode.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP2_COUNTRY_CODE"), {
       force: true,
     });
-     cy.get(this.selectState.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_STATE"), {
-      force: true,
-    });
-    cy.get(this.selectDistrict.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_DISTRICT"), {
-      force: true,
-    });
+    const isCountryIndia = Cypress.env("STEP2_COUNTRY") === "India" ? true: false;
+    if (isCountryIndia) { 
+      cy.get(this.selectState.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_STATE"), {
+        force: true,
+      });
+      cy.get(this.selectDistrict.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_DISTRICT"), {
+        force: true,
+      });
+    }
     cy.get(this.inputCity.replace('_<FORM_ID>', formId)).type(Cypress.env("STEP2_CITY"));
     cy.get(this.inputPincode.replace('_<FORM_ID>', formId)).type(Cypress.env("STEP2_PINCODE"));
        
