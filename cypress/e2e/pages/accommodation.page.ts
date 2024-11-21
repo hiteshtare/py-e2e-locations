@@ -46,6 +46,7 @@ export class AccommodationPages {
   inputLine2 = '#input_<FORM_ID>_69';
   inputCity = '#input_<FORM_ID>_26';
   inputPincode = '#input_<FORM_ID>_65';
+  selectState = '#input_<FORM_ID>_73';
   selectDistrict = '#input_<FORM_ID>_70';
   selectCountry = '#input_<FORM_ID>_24';
 
@@ -113,9 +114,7 @@ export class AccommodationPages {
     cy.get(this.selectGender.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP2_GENDER"), {
       force: true,
     });
-    cy.get(this.selectCountryCode.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP2_COUNTRY_CODE"), {
-      force: true,
-    });
+    
     cy.get(this.inputMobile.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_MOBILE"));
     cy.get(this.inputEmail.replace('_<FORM_ID>', formId)).type(Cypress.env("STEP2_EMAIL"));
     cy.get(this.selectIndianCitizen.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP2_INDIAN_CITIZEN"), {
@@ -130,16 +129,23 @@ export class AccommodationPages {
       force: true,
     });
 
+    cy.get(this.inputLine1.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_LINE1"));
+    cy.get(this.inputLine2.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_LINE2"));
     cy.get(this.selectCountry.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_COUNTRY"), {
       force: true,
     });
-    cy.get(this.inputLine1.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_LINE1"));
-    cy.get(this.inputLine2.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_LINE2"));
-    cy.get(this.inputCity.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_CITY"));
-    cy.get(this.inputPincode.replace('_<FORM_ID>',formId)).type(Cypress.env("STEP2_PINCODE"));
-    // cy.get(this.selectDistrict.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_DISTRICT"), {
-    //   force: true,
-    // });
+    cy.get(this.selectCountryCode.replace('_<FORM_ID>',formId)).select(Cypress.env("STEP2_COUNTRY_CODE"), {
+      force: true,
+    });
+     cy.get(this.selectState.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_STATE"), {
+      force: true,
+    });
+    cy.get(this.selectDistrict.replace('_<FORM_ID>', formId)).select(Cypress.env("STEP2_DISTRICT"), {
+      force: true,
+    });
+    cy.get(this.inputCity.replace('_<FORM_ID>', formId)).type(Cypress.env("STEP2_CITY"));
+    cy.get(this.inputPincode.replace('_<FORM_ID>', formId)).type(Cypress.env("STEP2_PINCODE"));
+       
 
     //Set checkbox value on Form
     const agreeTC = Cypress.env("STEP2_AGREE_TC");
