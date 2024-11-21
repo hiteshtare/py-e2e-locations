@@ -150,7 +150,7 @@ export class AccommodationPages {
     captureSreenshot(2000);
   }
 
-  populateModal_fields(isNonMember: boolean) {
+  populateModal_fields(isNonMember?: boolean) {
     //Set Dropdown value on Form
     cy.get(this.modal_selectSalutation).select(Cypress.env("MEMBER1_SALUTATION"), {
       force: true,
