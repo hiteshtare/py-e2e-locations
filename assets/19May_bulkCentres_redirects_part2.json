@@ -1,0 +1,17 @@
+{
+    "plugin": {
+        "version": "5.4.2",
+        "date": "Sat, 24 Aug 2024 13:57:17 +0000"
+    },
+    "groups": [
+        {
+            "id": 27,
+            "name": "Centers shift to Locations",
+            "redirects": 0,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": true
+        }
+    ],
+    "redirects": []
+}
