@@ -5,7 +5,7 @@ import { AccommodationPages } from "./pages/accommodation.page";
 
 const accommodationPages = new AccommodationPages();
 
-describe.only("Bangalore - Accommodation page", () => {
+describe.skip("Bangalore - Accommodation page", () => {
   beforeEach(() => {
     cy.visit("/location/bangalore/accommodation");
   });

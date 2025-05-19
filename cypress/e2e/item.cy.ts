@@ -12,7 +12,7 @@ const itemPages = new ItemPages();
 //Import test data for Books
 const testDataForItems = require("../fixtures/existing_centres_url.json");
 
-describe.skip("Old Centres links: Dynamic data test ", () => {
+describe("Old Centres links: Dynamic data test ", () => {
   testDataForItems.forEach((testCase: any, index: number) => {
     it(`#${index+1} Centre link give 200 OK status`, () => {
       cy.visit(`${testCase.match_url}`);
@@ -26,7 +26,7 @@ describe.skip("Old Centres links: Dynamic data test ", () => {
   });
 });
 
-describe.skip("New Locations links: Dynamic data test ", () => {
+describe("New Locations links: Dynamic data test ", () => {
   testDataForItems.forEach((testCase: any, index: number) => {
     it(`#${index + 1} Location link give 200 OK status`, () => {
       cy.request("HEAD", testCase.url).its("status").should("eq", 200);
