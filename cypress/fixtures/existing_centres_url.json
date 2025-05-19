@@ -148,10 +148,6 @@
     "url": "https://yssofindia.org/location/surana"
   },
   {
-    "match_url": "https://yssofindia.org/centre/yogoda_satsanga_sakha_kendra_suraikhet",
-    "url": "#N/A"
-  },
-  {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_sundernagar",
     "url": "https://yssofindia.org/location/sundernagar"
   },
@@ -206,10 +202,6 @@
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_sant_kabir_nagar",
     "url": "https://yssofindia.org/location/sant-kabir-nagar"
-  },
-  {
-    "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_sankagiri",
-    "url": "#N/A"
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_sambalpur",
@@ -353,7 +345,7 @@
   },
   {
     "match_url": "https://yssofindia.org/centre/paramahans_yogananda_dhyana_samaj_kopundole_kathmandu",
-    "url": "#N/A"
+    "url": "https://yssofindia.org/location/kathmandu"
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_nellore",
@@ -426,10 +418,6 @@
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_kendra_mangaluru",
     "url": "https://yssofindia.org/location/mangaluru"
-  },
-  {
-    "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_mangalagiri",
-    "url": "#N/A"
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_mandi",
@@ -520,10 +508,6 @@
     "url": "https://yssofindia.org/location/kathgodam"
   },
   {
-    "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_kashidih",
-    "url": "#N/A"
-  },
-  {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_kanpur",
     "url": "https://yssofindia.org/location/kanpur"
   },
@@ -538,10 +522,6 @@
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_kakinada",
     "url": "https://yssofindia.org/location/kakinada"
-  },
-  {
-    "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_kaiga-karwar",
-    "url": "#N/A"
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_kadapa",
@@ -565,7 +545,7 @@
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_kendra_jammu",
-    "url": "#N/A"
+    "url": "https://yssofindia.org/location/jammu"
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_jalandhar",
@@ -689,7 +669,7 @@
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_dindigul",
-    "url": "#N/A"
+    "url": "https://yssofindia.org/location/dindigul"
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_kendra_dihika",
@@ -853,7 +833,7 @@
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_kendra_bangalore",
-    "url": "#N/A"
+    "url": "https://yssofindia.org/location/bengaluru"
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_bailhongal",
@@ -885,7 +865,7 @@
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_sakha_ashram_anandapur",
-    "url": "#N/A"
+    "url": "https://yssofindia.org/location/anandapur"
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda_satsanga_dhyana_mandali_amritsar",
@@ -932,14 +912,6 @@
     "url": "https://yssofindia.org/location/agartala"
   },
   {
-    "match_url": "https://yssofindia.org/centre/all",
-    "url": "#N/A"
-  },
-  {
-    "match_url": "https://yssofindia.org/?post_type=centre&p=42601",
-    "url": "#N/A"
-  },
-  {
     "match_url": "https://yssofindia.org/centre/yogoda-satsanga-dhyana-mandali-allepey",
     "url": "https://yssofindia.org/location/alleppey"
   },
@@ -949,7 +921,7 @@
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda-satsanga-dhyana-mandali-gaulapar-haldwani",
-    "url": "#N/A"
+    "url": "https://yssofindia.org/location/gaulapar"
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda-satsanga-dhyana-mandali-saundatti",
@@ -978,10 +950,6 @@
   {
     "match_url": "https://yssofindia.org/centre/yogoda-satsanga-dhyana-mandali-bargaon",
     "url": "https://yssofindia.org/location/bargaon"
-  },
-  {
-    "match_url": "https://yssofindia.org/?post_type=centre&p=250684",
-    "url": "#N/A"
   },
   {
     "match_url": "https://yssofindia.org/centre/yogoda-satsanga-dhyana-mandali-rishikesh",
