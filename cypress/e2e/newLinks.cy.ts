@@ -21,10 +21,6 @@ describe("New Locations links: Dynamic data test ", () => {
         cy.request("HEAD", testCase.url).its("status").should("eq", 200);
 
         captureSreenshot();
-
-        cy.get("iframe").screenshot(
-          `screenshot_google_map_${testCase.match_url}`
-        );
       });
     }
   });
