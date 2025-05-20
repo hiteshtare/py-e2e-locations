@@ -15,7 +15,6 @@ const baseUrl = Cypress.config('baseUrl');
 
 describe("Old Centres links: Dynamic data test ", () => {
   testDataForItems.forEach((testCase: any, index: number) => {
-    if (index < 2) {
       it(`#${index + 1} Centre link: ${
         testCase.match_url
       } should give 200 OK status`, () => {
@@ -28,6 +27,5 @@ describe("Old Centres links: Dynamic data test ", () => {
 
         captureSreenshot();
       });
-    }
   });
 });
