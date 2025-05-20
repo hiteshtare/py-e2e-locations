@@ -13,7 +13,7 @@ export default defineConfig({
     // Resize the viewport to 1280px x 768px
     viewportWidth: 1280,
     viewportHeight: 768,
-    baseUrl: 'https://test.yssofindia.org/',
+    baseUrl: 'https://test.yssofindia.org',
     numTestsKeptInMemory:0,
     setupNodeEvents(on, config) {
       // implement node event listeners here

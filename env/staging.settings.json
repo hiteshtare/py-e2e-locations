@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://test.yssofindia.org/",
+  "baseUrl": "https://test.yssofindia.org",
   "env": {
     "greeting": "Alright PY! lets start Cypress on Test site",
     "STEP1_ARRIVAL_DATE": "29/12/2024",
