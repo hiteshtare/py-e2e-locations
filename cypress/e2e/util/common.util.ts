@@ -49,7 +49,13 @@ export function checkIfElementIsClickable(
 }
 
 export function captureSreenshot(seconds = 0) {
-  cy.wait(seconds).screenshot({ capture: "fullPage" });
+  cy.get("html, body").invoke(
+    "attr",
+    "style",
+    "height: auto; scroll-behavior: auto;"
+  );
+
+  cy.wait(seconds).screenshot();
 }
 
 export function checkStatus200ForLink(selector: string) {
