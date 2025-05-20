@@ -10,7 +10,6 @@ const testDataForItems = require("../fixtures/existing_centres_url.json");
 
 describe("New Locations links: Dynamic data test ", () => {
   testDataForItems.forEach((testCase: any, index: number) => {
-    if (index < 2) {
       it(`#${index + 1} Location link: ${
         testCase.url
       } should give 200 OK status`, () => {
@@ -22,6 +21,5 @@ describe("New Locations links: Dynamic data test ", () => {
 
         captureSreenshot();
       });
-    }
   });
 });
